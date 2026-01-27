@@ -154,6 +154,12 @@
   <data name="HYMN" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\GRANTC_HYMN.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="LIBRARY" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GRANTC_RESOURCES (6).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LIBRARY1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LIBRARY1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="MISSION" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\GRANTC_MISSION.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
