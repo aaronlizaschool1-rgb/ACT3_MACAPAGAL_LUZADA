@@ -1,0 +1,116 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+ACT3_MACAPAGAL_LUZADA
+</name>
+</assembly>
+<members>
+<member name="T:ACT3_MACAPAGAL_LUZADA.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:ACT3_MACAPAGAL_LUZADA.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:ACT3_MACAPAGAL_LUZADA.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:ACT3_MACAPAGAL_LUZADA.My.Resources.Resources._EVENT">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ACT3_MACAPAGAL_LUZADA.My.Resources.Resources.ABOUT">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ACT3_MACAPAGAL_LUZADA.My.Resources.Resources.ABOUT1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ACT3_MACAPAGAL_LUZADA.My.Resources.Resources.ENROLL">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ACT3_MACAPAGAL_LUZADA.My.Resources.Resources.ENROLL2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ACT3_MACAPAGAL_LUZADA.My.Resources.Resources.ENROLL3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ACT3_MACAPAGAL_LUZADA.My.Resources.Resources.ENROLL4">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ACT3_MACAPAGAL_LUZADA.My.Resources.Resources.FRONT">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ACT3_MACAPAGAL_LUZADA.My.Resources.Resources.FRONT1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ACT3_MACAPAGAL_LUZADA.My.Resources.Resources.FRONT2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ACT3_MACAPAGAL_LUZADA.My.Resources.Resources.FRONTDOWN">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ACT3_MACAPAGAL_LUZADA.My.Resources.Resources.HYMN">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ACT3_MACAPAGAL_LUZADA.My.Resources.Resources.LIBRARY">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ACT3_MACAPAGAL_LUZADA.My.Resources.Resources.LIBRARY1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ACT3_MACAPAGAL_LUZADA.My.Resources.Resources.MISSION">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ACT3_MACAPAGAL_LUZADA.My.Resources.Resources.PLEDGE">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ACT3_MACAPAGAL_LUZADA.My.Resources.Resources.SHOPDIRECTORY">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ACT3_MACAPAGAL_LUZADA.My.Resources.Resources.VISION">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+</members>
+</doc>

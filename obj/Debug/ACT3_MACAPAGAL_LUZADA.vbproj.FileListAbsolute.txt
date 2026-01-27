@@ -1,0 +1,17 @@
+C:\Users\Aaron\source\repos\ACT3_MACAPAGAL_LUZADA\bin\Debug\ACT3_MACAPAGAL_LUZADA.exe.config
+C:\Users\Aaron\source\repos\ACT3_MACAPAGAL_LUZADA\bin\Debug\ACT3_MACAPAGAL_LUZADA.exe
+C:\Users\Aaron\source\repos\ACT3_MACAPAGAL_LUZADA\bin\Debug\ACT3_MACAPAGAL_LUZADA.pdb
+C:\Users\Aaron\source\repos\ACT3_MACAPAGAL_LUZADA\bin\Debug\ACT3_MACAPAGAL_LUZADA.xml
+C:\Users\Aaron\source\repos\ACT3_MACAPAGAL_LUZADA\obj\Debug\ACT3_MACAPAGAL_LUZADA.vbproj.AssemblyReference.cache
+C:\Users\Aaron\source\repos\ACT3_MACAPAGAL_LUZADA\obj\Debug\ACT3_MACAPAGAL_LUZADA.Form1.resources
+C:\Users\Aaron\source\repos\ACT3_MACAPAGAL_LUZADA\obj\Debug\ACT3_MACAPAGAL_LUZADA.FormAbout.resources
+C:\Users\Aaron\source\repos\ACT3_MACAPAGAL_LUZADA\obj\Debug\ACT3_MACAPAGAL_LUZADA.FormEnroll.resources
+C:\Users\Aaron\source\repos\ACT3_MACAPAGAL_LUZADA\obj\Debug\ACT3_MACAPAGAL_LUZADA.FormEvent.resources
+C:\Users\Aaron\source\repos\ACT3_MACAPAGAL_LUZADA\obj\Debug\ACT3_MACAPAGAL_LUZADA.FormShop.resources
+C:\Users\Aaron\source\repos\ACT3_MACAPAGAL_LUZADA\obj\Debug\ACT3_MACAPAGAL_LUZADA.Resources.resources
+C:\Users\Aaron\source\repos\ACT3_MACAPAGAL_LUZADA\obj\Debug\ACT3_MACAPAGAL_LUZADA.vbproj.GenerateResource.cache
+C:\Users\Aaron\source\repos\ACT3_MACAPAGAL_LUZADA\obj\Debug\ACT3_MACAPAGAL_LUZADA.vbproj.CoreCompileInputs.cache
+C:\Users\Aaron\source\repos\ACT3_MACAPAGAL_LUZADA\obj\Debug\ACT3_MACAPAGAL_LUZADA.exe
+C:\Users\Aaron\source\repos\ACT3_MACAPAGAL_LUZADA\obj\Debug\ACT3_MACAPAGAL_LUZADA.xml
+C:\Users\Aaron\source\repos\ACT3_MACAPAGAL_LUZADA\obj\Debug\ACT3_MACAPAGAL_LUZADA.pdb
+C:\Users\Aaron\source\repos\ACT3_MACAPAGAL_LUZADA\obj\Debug\ACT3_MACAPAGAL_LUZADA.FormLibrary.resources

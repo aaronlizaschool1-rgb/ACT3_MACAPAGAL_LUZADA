@@ -98,6 +98,12 @@
     <Compile Include="FormEvent.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="FormLibrary.Designer.vb">
+      <DependentUpon>FormLibrary.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormLibrary.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="FormShop.Designer.vb">
       <DependentUpon>FormShop.vb</DependentUpon>
     </Compile>
@@ -133,6 +139,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormEvent.resx">
       <DependentUpon>FormEvent.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLibrary.resx">
+      <DependentUpon>FormLibrary.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormShop.resx">
       <DependentUpon>FormShop.vb</DependentUpon>
