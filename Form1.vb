@@ -39,7 +39,7 @@
         Select Case selectedForm
             Case "Home"
                 Dim homeForm As New Form1()
-                homeForm.Show()
+                Me.Show()
                 Me.Hide()
             Case "Enroll"
                 Dim enrollForm As New FormEnroll()
@@ -65,7 +65,5 @@
 
     End Sub
 
-    Private Sub ToolStripComboBox1_Click_1(sender As Object, e As EventArgs) Handles ToolStripComboBox1.Click
 
-    End Sub
 End Class
