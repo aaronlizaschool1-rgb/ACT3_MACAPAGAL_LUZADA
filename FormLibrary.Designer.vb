@@ -38,10 +38,10 @@ Partial Class FormLibrary
         Me.Panel4 = New System.Windows.Forms.Panel()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Panel5 = New System.Windows.Forms.Panel()
-        Me.Panel6 = New System.Windows.Forms.Panel()
-        Me.Panel7 = New System.Windows.Forms.Panel()
         Me.NumericUpDown1 = New System.Windows.Forms.NumericUpDown()
+        Me.Panel6 = New System.Windows.Forms.Panel()
         Me.Button2 = New System.Windows.Forms.Button()
+        Me.Panel7 = New System.Windows.Forms.Panel()
         Me.Button3 = New System.Windows.Forms.Button()
         Me.TableLayoutPanel1.SuspendLayout()
         Me.Panel1.SuspendLayout()
@@ -50,9 +50,9 @@ Partial Class FormLibrary
         Me.Panel3.SuspendLayout()
         Me.Panel4.SuspendLayout()
         Me.Panel5.SuspendLayout()
+        CType(Me.NumericUpDown1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel6.SuspendLayout()
         Me.Panel7.SuspendLayout()
-        CType(Me.NumericUpDown1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'TableLayoutPanel1
@@ -83,6 +83,7 @@ Partial Class FormLibrary
         Me.TableLayoutPanel1.Controls.Add(Me.Panel7, 12, 4)
         Me.TableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.TableLayoutPanel1.Location = New System.Drawing.Point(0, 0)
+        Me.TableLayoutPanel1.Margin = New System.Windows.Forms.Padding(4)
         Me.TableLayoutPanel1.Name = "TableLayoutPanel1"
         Me.TableLayoutPanel1.RowCount = 6
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 13.33333!))
@@ -91,7 +92,7 @@ Partial Class FormLibrary
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 8.888889!))
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 6.888889!))
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.777778!))
-        Me.TableLayoutPanel1.Size = New System.Drawing.Size(822, 450)
+        Me.TableLayoutPanel1.Size = New System.Drawing.Size(1096, 554)
         Me.TableLayoutPanel1.TabIndex = 0
         '
         'Panel1
@@ -99,9 +100,10 @@ Partial Class FormLibrary
         Me.TableLayoutPanel1.SetColumnSpan(Me.Panel1, 2)
         Me.Panel1.Controls.Add(Me.CheckedListBox1)
         Me.Panel1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Panel1.Location = New System.Drawing.Point(60, 120)
+        Me.Panel1.Location = New System.Drawing.Point(80, 148)
+        Me.Panel1.Margin = New System.Windows.Forms.Padding(4)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(116, 211)
+        Me.Panel1.Size = New System.Drawing.Size(155, 259)
         Me.Panel1.TabIndex = 0
         '
         'CheckedListBox1
@@ -113,8 +115,9 @@ Partial Class FormLibrary
         Me.CheckedListBox1.FormattingEnabled = True
         Me.CheckedListBox1.Items.AddRange(New Object() {"Mathematics Textbook", "English Textbook", "English Literature", "Filipino Textbook", "Filipino Literature", "Mapeh Textbook", "Science Textbook", "Local Scientific Journal", "Science International Journal"})
         Me.CheckedListBox1.Location = New System.Drawing.Point(0, 0)
+        Me.CheckedListBox1.Margin = New System.Windows.Forms.Padding(4)
         Me.CheckedListBox1.Name = "CheckedListBox1"
-        Me.CheckedListBox1.Size = New System.Drawing.Size(116, 211)
+        Me.CheckedListBox1.Size = New System.Drawing.Size(155, 259)
         Me.CheckedListBox1.TabIndex = 0
         '
         'Panel2
@@ -122,9 +125,10 @@ Partial Class FormLibrary
         Me.TableLayoutPanel1.SetColumnSpan(Me.Panel2, 6)
         Me.Panel2.Controls.Add(Me.DataGridView1)
         Me.Panel2.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Panel2.Location = New System.Drawing.Point(211, 120)
+        Me.Panel2.Location = New System.Drawing.Point(282, 148)
+        Me.Panel2.Margin = New System.Windows.Forms.Padding(4)
         Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(331, 211)
+        Me.Panel2.Size = New System.Drawing.Size(441, 259)
         Me.Panel2.TabIndex = 1
         '
         'DataGridView1
@@ -135,48 +139,63 @@ Partial Class FormLibrary
         Me.DataGridView1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.DataGridView1.GridColor = System.Drawing.Color.Red
         Me.DataGridView1.Location = New System.Drawing.Point(0, 0)
+        Me.DataGridView1.Margin = New System.Windows.Forms.Padding(4)
         Me.DataGridView1.Name = "DataGridView1"
-        Me.DataGridView1.Size = New System.Drawing.Size(331, 211)
+        Me.DataGridView1.RowHeadersWidth = 51
+        Me.DataGridView1.Size = New System.Drawing.Size(441, 259)
         Me.DataGridView1.TabIndex = 0
         '
         'Column1
         '
         Me.Column1.HeaderText = "CATEGORY"
+        Me.Column1.MinimumWidth = 6
         Me.Column1.Name = "Column1"
+        Me.Column1.Width = 125
         '
         'Column2
         '
         Me.Column2.HeaderText = "TITLE"
+        Me.Column2.MinimumWidth = 6
         Me.Column2.Name = "Column2"
+        Me.Column2.Width = 125
         '
         'Column3
         '
         Me.Column3.HeaderText = "PUBLISHER"
+        Me.Column3.MinimumWidth = 6
         Me.Column3.Name = "Column3"
+        Me.Column3.Width = 125
         '
         'Column4
         '
         Me.Column4.HeaderText = "DATE BORROWED"
+        Me.Column4.MinimumWidth = 6
         Me.Column4.Name = "Column4"
+        Me.Column4.Width = 125
         '
         'Column5
         '
         Me.Column5.HeaderText = "DUE DATE"
+        Me.Column5.MinimumWidth = 6
         Me.Column5.Name = "Column5"
+        Me.Column5.Width = 125
         '
         'Column6
         '
         Me.Column6.HeaderText = "CART"
+        Me.Column6.MinimumWidth = 6
         Me.Column6.Name = "Column6"
+        Me.Column6.Width = 125
         '
         'Panel3
         '
         Me.TableLayoutPanel1.SetColumnSpan(Me.Panel3, 3)
         Me.Panel3.Controls.Add(Me.ListBox1)
         Me.Panel3.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Panel3.Location = New System.Drawing.Point(568, 120)
+        Me.Panel3.Location = New System.Drawing.Point(757, 148)
+        Me.Panel3.Margin = New System.Windows.Forms.Padding(4)
         Me.Panel3.Name = "Panel3"
-        Me.Panel3.Size = New System.Drawing.Size(196, 211)
+        Me.Panel3.Size = New System.Drawing.Size(261, 259)
         Me.Panel3.TabIndex = 2
         '
         'ListBox1
@@ -186,10 +205,11 @@ Partial Class FormLibrary
         Me.ListBox1.Font = New System.Drawing.Font("Calisto MT", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ListBox1.ForeColor = System.Drawing.SystemColors.Info
         Me.ListBox1.FormattingEnabled = True
-        Me.ListBox1.ItemHeight = 15
+        Me.ListBox1.ItemHeight = 19
         Me.ListBox1.Location = New System.Drawing.Point(0, 0)
+        Me.ListBox1.Margin = New System.Windows.Forms.Padding(4)
         Me.ListBox1.Name = "ListBox1"
-        Me.ListBox1.Size = New System.Drawing.Size(196, 211)
+        Me.ListBox1.Size = New System.Drawing.Size(261, 259)
         Me.ListBox1.TabIndex = 0
         '
         'Panel4
@@ -197,9 +217,10 @@ Partial Class FormLibrary
         Me.TableLayoutPanel1.SetColumnSpan(Me.Panel4, 3)
         Me.Panel4.Controls.Add(Me.Button1)
         Me.Panel4.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Panel4.Location = New System.Drawing.Point(143, 377)
+        Me.Panel4.Location = New System.Drawing.Point(191, 464)
+        Me.Panel4.Margin = New System.Windows.Forms.Padding(4)
         Me.Panel4.Name = "Panel4"
-        Me.Panel4.Size = New System.Drawing.Size(108, 25)
+        Me.Panel4.Size = New System.Drawing.Size(144, 30)
         Me.Panel4.TabIndex = 3
         '
         'Button1
@@ -210,8 +231,9 @@ Partial Class FormLibrary
         Me.Button1.Font = New System.Drawing.Font("Calisto MT", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.ForeColor = System.Drawing.SystemColors.Info
         Me.Button1.Location = New System.Drawing.Point(0, 0)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(4)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(108, 25)
+        Me.Button1.Size = New System.Drawing.Size(144, 30)
         Me.Button1.TabIndex = 0
         Me.Button1.Text = "BORROW"
         Me.Button1.UseVisualStyleBackColor = False
@@ -220,29 +242,11 @@ Partial Class FormLibrary
         '
         Me.Panel5.Controls.Add(Me.NumericUpDown1)
         Me.Panel5.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Panel5.Location = New System.Drawing.Point(290, 377)
+        Me.Panel5.Location = New System.Drawing.Point(388, 464)
+        Me.Panel5.Margin = New System.Windows.Forms.Padding(4)
         Me.Panel5.Name = "Panel5"
-        Me.Panel5.Size = New System.Drawing.Size(108, 25)
+        Me.Panel5.Size = New System.Drawing.Size(144, 30)
         Me.Panel5.TabIndex = 4
-        '
-        'Panel6
-        '
-        Me.TableLayoutPanel1.SetColumnSpan(Me.Panel6, 2)
-        Me.Panel6.Controls.Add(Me.Button2)
-        Me.Panel6.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Panel6.Location = New System.Drawing.Point(435, 377)
-        Me.Panel6.Name = "Panel6"
-        Me.Panel6.Size = New System.Drawing.Size(107, 25)
-        Me.Panel6.TabIndex = 5
-        '
-        'Panel7
-        '
-        Me.Panel7.Controls.Add(Me.Button3)
-        Me.Panel7.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Panel7.Location = New System.Drawing.Point(580, 377)
-        Me.Panel7.Name = "Panel7"
-        Me.Panel7.Size = New System.Drawing.Size(108, 25)
-        Me.Panel7.TabIndex = 6
         '
         'NumericUpDown1
         '
@@ -251,9 +255,21 @@ Partial Class FormLibrary
         Me.NumericUpDown1.Font = New System.Drawing.Font("Calisto MT", 27.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.NumericUpDown1.ForeColor = System.Drawing.SystemColors.Info
         Me.NumericUpDown1.Location = New System.Drawing.Point(0, 0)
+        Me.NumericUpDown1.Margin = New System.Windows.Forms.Padding(4)
         Me.NumericUpDown1.Name = "NumericUpDown1"
-        Me.NumericUpDown1.Size = New System.Drawing.Size(108, 50)
+        Me.NumericUpDown1.Size = New System.Drawing.Size(144, 61)
         Me.NumericUpDown1.TabIndex = 0
+        '
+        'Panel6
+        '
+        Me.TableLayoutPanel1.SetColumnSpan(Me.Panel6, 2)
+        Me.Panel6.Controls.Add(Me.Button2)
+        Me.Panel6.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Panel6.Location = New System.Drawing.Point(581, 464)
+        Me.Panel6.Margin = New System.Windows.Forms.Padding(4)
+        Me.Panel6.Name = "Panel6"
+        Me.Panel6.Size = New System.Drawing.Size(142, 30)
+        Me.Panel6.TabIndex = 5
         '
         'Button2
         '
@@ -263,11 +279,22 @@ Partial Class FormLibrary
         Me.Button2.Font = New System.Drawing.Font("Calisto MT", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button2.ForeColor = System.Drawing.SystemColors.Info
         Me.Button2.Location = New System.Drawing.Point(0, 0)
+        Me.Button2.Margin = New System.Windows.Forms.Padding(4)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(107, 25)
+        Me.Button2.Size = New System.Drawing.Size(142, 30)
         Me.Button2.TabIndex = 0
         Me.Button2.Text = "CLEAR"
         Me.Button2.UseVisualStyleBackColor = False
+        '
+        'Panel7
+        '
+        Me.Panel7.Controls.Add(Me.Button3)
+        Me.Panel7.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Panel7.Location = New System.Drawing.Point(773, 464)
+        Me.Panel7.Margin = New System.Windows.Forms.Padding(4)
+        Me.Panel7.Name = "Panel7"
+        Me.Panel7.Size = New System.Drawing.Size(144, 30)
+        Me.Panel7.TabIndex = 6
         '
         'Button3
         '
@@ -277,20 +304,22 @@ Partial Class FormLibrary
         Me.Button3.Font = New System.Drawing.Font("Calisto MT", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button3.ForeColor = System.Drawing.SystemColors.Info
         Me.Button3.Location = New System.Drawing.Point(0, 0)
+        Me.Button3.Margin = New System.Windows.Forms.Padding(4)
         Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(108, 25)
+        Me.Button3.Size = New System.Drawing.Size(144, 30)
         Me.Button3.TabIndex = 0
         Me.Button3.Text = "BACK"
         Me.Button3.UseVisualStyleBackColor = False
         '
         'FormLibrary
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = Global.ACT3_MACAPAGAL_LUZADA.My.Resources.Resources.LIBRARY1
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ClientSize = New System.Drawing.Size(822, 450)
+        Me.ClientSize = New System.Drawing.Size(1096, 554)
         Me.Controls.Add(Me.TableLayoutPanel1)
+        Me.Margin = New System.Windows.Forms.Padding(4)
         Me.Name = "FormLibrary"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "FormLibrary"
@@ -302,9 +331,9 @@ Partial Class FormLibrary
         Me.Panel3.ResumeLayout(False)
         Me.Panel4.ResumeLayout(False)
         Me.Panel5.ResumeLayout(False)
+        CType(Me.NumericUpDown1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel6.ResumeLayout(False)
         Me.Panel7.ResumeLayout(False)
-        CType(Me.NumericUpDown1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub

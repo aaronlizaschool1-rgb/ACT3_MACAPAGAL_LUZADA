@@ -88,6 +88,8 @@ Partial Class FormEnroll
         Me.Label9 = New System.Windows.Forms.Label()
         Me.TextBox7 = New System.Windows.Forms.TextBox()
         Me.Label8 = New System.Windows.Forms.Label()
+        Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
+        Me.ToolStripComboBox1 = New System.Windows.Forms.ToolStripComboBox()
         Me.TableLayoutPanel2.SuspendLayout()
         Me.Panel5.SuspendLayout()
         Me.Panel6.SuspendLayout()
@@ -103,6 +105,7 @@ Partial Class FormEnroll
         Me.Panel2.SuspendLayout()
         Me.Panel3.SuspendLayout()
         Me.Panel4.SuspendLayout()
+        Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
         'TableLayoutPanel2
@@ -129,7 +132,7 @@ Partial Class FormEnroll
         Me.TableLayoutPanel2.Controls.Add(Me.Panel9, 4, 5)
         Me.TableLayoutPanel2.Controls.Add(Me.Button2, 8, 6)
         Me.TableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Top
-        Me.TableLayoutPanel2.Location = New System.Drawing.Point(0, 1122)
+        Me.TableLayoutPanel2.Location = New System.Drawing.Point(0, 1173)
         Me.TableLayoutPanel2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.TableLayoutPanel2.Name = "TableLayoutPanel2"
         Me.TableLayoutPanel2.RowCount = 9
@@ -142,7 +145,7 @@ Partial Class FormEnroll
         Me.TableLayoutPanel2.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 1.644031!))
         Me.TableLayoutPanel2.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 1.393853!))
         Me.TableLayoutPanel2.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.610436!))
-        Me.TableLayoutPanel2.Size = New System.Drawing.Size(1519, 2798)
+        Me.TableLayoutPanel2.Size = New System.Drawing.Size(1540, 2798)
         Me.TableLayoutPanel2.TabIndex = 1
         '
         'Panel5
@@ -158,10 +161,10 @@ Partial Class FormEnroll
         Me.Panel5.Controls.Add(Me.chkmath)
         Me.Panel5.Controls.Add(Me.Label10)
         Me.Panel5.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Panel5.Location = New System.Drawing.Point(178, 493)
+        Me.Panel5.Location = New System.Drawing.Point(181, 493)
         Me.Panel5.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Panel5.Name = "Panel5"
-        Me.Panel5.Size = New System.Drawing.Size(461, 465)
+        Me.Panel5.Size = New System.Drawing.Size(468, 465)
         Me.Panel5.TabIndex = 0
         '
         'chkcomputer
@@ -172,7 +175,7 @@ Partial Class FormEnroll
         Me.chkcomputer.Location = New System.Drawing.Point(0, 207)
         Me.chkcomputer.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.chkcomputer.Name = "chkcomputer"
-        Me.chkcomputer.Size = New System.Drawing.Size(461, 30)
+        Me.chkcomputer.Size = New System.Drawing.Size(468, 30)
         Me.chkcomputer.TabIndex = 7
         Me.chkcomputer.Text = "COMPUTER - 600"
         Me.chkcomputer.UseVisualStyleBackColor = True
@@ -185,7 +188,7 @@ Partial Class FormEnroll
         Me.chkesp.Location = New System.Drawing.Point(0, 177)
         Me.chkesp.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.chkesp.Name = "chkesp"
-        Me.chkesp.Size = New System.Drawing.Size(461, 30)
+        Me.chkesp.Size = New System.Drawing.Size(468, 30)
         Me.chkesp.TabIndex = 6
         Me.chkesp.Text = "EDUKASAYON SA PAGPAPAKATAO - 700"
         Me.chkesp.UseVisualStyleBackColor = True
@@ -198,7 +201,7 @@ Partial Class FormEnroll
         Me.chkap.Location = New System.Drawing.Point(0, 147)
         Me.chkap.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.chkap.Name = "chkap"
-        Me.chkap.Size = New System.Drawing.Size(461, 30)
+        Me.chkap.Size = New System.Drawing.Size(468, 30)
         Me.chkap.TabIndex = 5
         Me.chkap.Text = "ARALING PANLIPUNAN - 800"
         Me.chkap.UseVisualStyleBackColor = True
@@ -211,7 +214,7 @@ Partial Class FormEnroll
         Me.chkfilipino.Location = New System.Drawing.Point(0, 117)
         Me.chkfilipino.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.chkfilipino.Name = "chkfilipino"
-        Me.chkfilipino.Size = New System.Drawing.Size(461, 30)
+        Me.chkfilipino.Size = New System.Drawing.Size(468, 30)
         Me.chkfilipino.TabIndex = 4
         Me.chkfilipino.Text = "FILIPINO - 900"
         Me.chkfilipino.UseVisualStyleBackColor = True
@@ -224,7 +227,7 @@ Partial Class FormEnroll
         Me.chkenglish.Location = New System.Drawing.Point(0, 87)
         Me.chkenglish.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.chkenglish.Name = "chkenglish"
-        Me.chkenglish.Size = New System.Drawing.Size(461, 30)
+        Me.chkenglish.Size = New System.Drawing.Size(468, 30)
         Me.chkenglish.TabIndex = 3
         Me.chkenglish.Text = "ENGLISH - 700"
         Me.chkenglish.UseVisualStyleBackColor = True
@@ -237,7 +240,7 @@ Partial Class FormEnroll
         Me.chkscience.Location = New System.Drawing.Point(0, 56)
         Me.chkscience.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.chkscience.Name = "chkscience"
-        Me.chkscience.Size = New System.Drawing.Size(461, 31)
+        Me.chkscience.Size = New System.Drawing.Size(468, 31)
         Me.chkscience.TabIndex = 2
         Me.chkscience.Text = "SCIENCE - 1000"
         Me.chkscience.UseVisualStyleBackColor = True
@@ -250,7 +253,7 @@ Partial Class FormEnroll
         Me.chkmath.Location = New System.Drawing.Point(0, 26)
         Me.chkmath.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.chkmath.Name = "chkmath"
-        Me.chkmath.Size = New System.Drawing.Size(461, 30)
+        Me.chkmath.Size = New System.Drawing.Size(468, 30)
         Me.chkmath.TabIndex = 1
         Me.chkmath.Text = "MATH - 1000"
         Me.chkmath.UseVisualStyleBackColor = True
@@ -274,10 +277,10 @@ Partial Class FormEnroll
         Me.Panel6.Controls.Add(Me.Label12)
         Me.Panel6.Controls.Add(Me.Label11)
         Me.Panel6.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Panel6.Location = New System.Drawing.Point(882, 493)
+        Me.Panel6.Location = New System.Drawing.Point(896, 493)
         Me.Panel6.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Panel6.Name = "Panel6"
-        Me.Panel6.Size = New System.Drawing.Size(465, 465)
+        Me.Panel6.Size = New System.Drawing.Size(471, 465)
         Me.Panel6.TabIndex = 1
         '
         'GroupBox1
@@ -305,7 +308,7 @@ Partial Class FormEnroll
         Me.GroupBox1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.GroupBox1.Name = "GroupBox1"
         Me.GroupBox1.Padding = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.GroupBox1.Size = New System.Drawing.Size(465, 215)
+        Me.GroupBox1.Size = New System.Drawing.Size(471, 215)
         Me.GroupBox1.TabIndex = 2
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "GroupBox1"
@@ -525,10 +528,10 @@ Partial Class FormEnroll
         Me.Panel7.Controls.Add(Me.chklab)
         Me.Panel7.Controls.Add(Me.chkbus)
         Me.Panel7.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Panel7.Location = New System.Drawing.Point(178, 1379)
+        Me.Panel7.Location = New System.Drawing.Point(181, 1379)
         Me.Panel7.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Panel7.Name = "Panel7"
-        Me.Panel7.Size = New System.Drawing.Size(461, 462)
+        Me.Panel7.Size = New System.Drawing.Size(468, 462)
         Me.Panel7.TabIndex = 2
         '
         'chklab
@@ -539,7 +542,7 @@ Partial Class FormEnroll
         Me.chklab.Location = New System.Drawing.Point(0, 30)
         Me.chklab.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.chklab.Name = "chklab"
-        Me.chklab.Size = New System.Drawing.Size(461, 30)
+        Me.chklab.Size = New System.Drawing.Size(468, 30)
         Me.chklab.TabIndex = 1
         Me.chklab.Text = "LABORATORY FEE - 2500"
         Me.chklab.UseVisualStyleBackColor = True
@@ -552,7 +555,7 @@ Partial Class FormEnroll
         Me.chkbus.Location = New System.Drawing.Point(0, 0)
         Me.chkbus.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.chkbus.Name = "chkbus"
-        Me.chkbus.Size = New System.Drawing.Size(461, 30)
+        Me.chkbus.Size = New System.Drawing.Size(468, 30)
         Me.chkbus.TabIndex = 0
         Me.chkbus.Text = "SCHOOL BUS - 1500"
         Me.chkbus.UseVisualStyleBackColor = True
@@ -564,10 +567,10 @@ Partial Class FormEnroll
         Me.Panel8.Controls.Add(Me.chkreferral)
         Me.Panel8.Controls.Add(Me.chktlc)
         Me.Panel8.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Panel8.Location = New System.Drawing.Point(882, 1379)
+        Me.Panel8.Location = New System.Drawing.Point(896, 1379)
         Me.Panel8.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Panel8.Name = "Panel8"
-        Me.Panel8.Size = New System.Drawing.Size(465, 462)
+        Me.Panel8.Size = New System.Drawing.Size(471, 462)
         Me.Panel8.TabIndex = 3
         '
         'chkreferral
@@ -578,7 +581,7 @@ Partial Class FormEnroll
         Me.chkreferral.Location = New System.Drawing.Point(0, 30)
         Me.chkreferral.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.chkreferral.Name = "chkreferral"
-        Me.chkreferral.Size = New System.Drawing.Size(465, 30)
+        Me.chkreferral.Size = New System.Drawing.Size(471, 30)
         Me.chkreferral.TabIndex = 1
         Me.chkreferral.Text = "REFFERAL - 10%"
         Me.chkreferral.UseVisualStyleBackColor = True
@@ -591,7 +594,7 @@ Partial Class FormEnroll
         Me.chktlc.Location = New System.Drawing.Point(0, 0)
         Me.chktlc.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.chktlc.Name = "chktlc"
-        Me.chktlc.Size = New System.Drawing.Size(465, 30)
+        Me.chktlc.Size = New System.Drawing.Size(471, 30)
         Me.chktlc.TabIndex = 0
         Me.chktlc.Text = "TLC SCHOLAR - 100%"
         Me.chktlc.UseVisualStyleBackColor = True
@@ -604,10 +607,10 @@ Partial Class FormEnroll
         Me.Panel9.Controls.Add(Me.Button1)
         Me.Panel9.Controls.Add(Me.txtPayment)
         Me.Panel9.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Panel9.Location = New System.Drawing.Point(489, 2136)
+        Me.Panel9.Location = New System.Drawing.Point(496, 2136)
         Me.Panel9.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Panel9.Name = "Panel9"
-        Me.Panel9.Size = New System.Drawing.Size(497, 445)
+        Me.Panel9.Size = New System.Drawing.Size(505, 445)
         Me.Panel9.TabIndex = 4
         '
         'lblTotal
@@ -628,7 +631,7 @@ Partial Class FormEnroll
         Me.Button1.Location = New System.Drawing.Point(0, 39)
         Me.Button1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(497, 44)
+        Me.Button1.Size = New System.Drawing.Size(505, 44)
         Me.Button1.TabIndex = 2
         Me.Button1.Text = "PAYMENT"
         Me.Button1.UseVisualStyleBackColor = True
@@ -640,7 +643,7 @@ Partial Class FormEnroll
         Me.txtPayment.Location = New System.Drawing.Point(0, 0)
         Me.txtPayment.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtPayment.Name = "txtPayment"
-        Me.txtPayment.Size = New System.Drawing.Size(497, 39)
+        Me.txtPayment.Size = New System.Drawing.Size(505, 39)
         Me.txtPayment.TabIndex = 1
         '
         'Button2
@@ -648,11 +651,11 @@ Partial Class FormEnroll
         Me.TableLayoutPanel2.SetColumnSpan(Me.Button2, 2)
         Me.Button2.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Button2.Font = New System.Drawing.Font("Calisto MT", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button2.Location = New System.Drawing.Point(1103, 2587)
+        Me.Button2.Location = New System.Drawing.Point(1119, 2587)
         Me.Button2.Margin = New System.Windows.Forms.Padding(4)
         Me.Button2.Name = "Button2"
         Me.TableLayoutPanel2.SetRowSpan(Me.Button2, 2)
-        Me.Button2.Size = New System.Drawing.Size(361, 77)
+        Me.Button2.Size = New System.Drawing.Size(367, 77)
         Me.Button2.TabIndex = 0
         Me.Button2.Text = "BACK"
         Me.Button2.UseVisualStyleBackColor = True
@@ -674,7 +677,7 @@ Partial Class FormEnroll
         Me.TableLayoutPanel1.Controls.Add(Me.Panel3, 1, 3)
         Me.TableLayoutPanel1.Controls.Add(Me.Panel4, 3, 3)
         Me.TableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Top
-        Me.TableLayoutPanel1.Location = New System.Drawing.Point(0, 0)
+        Me.TableLayoutPanel1.Location = New System.Drawing.Point(0, 51)
         Me.TableLayoutPanel1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.TableLayoutPanel1.Name = "TableLayoutPanel1"
         Me.TableLayoutPanel1.RowCount = 5
@@ -683,7 +686,7 @@ Partial Class FormEnroll
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 62.0!))
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 457.0!))
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 81.0!))
-        Me.TableLayoutPanel1.Size = New System.Drawing.Size(1519, 1122)
+        Me.TableLayoutPanel1.Size = New System.Drawing.Size(1540, 1122)
         Me.TableLayoutPanel1.TabIndex = 0
         '
         'Panel1
@@ -693,10 +696,10 @@ Partial Class FormEnroll
         Me.Panel1.Controls.Add(Me.TextBox1)
         Me.Panel1.Controls.Add(Me.Label1)
         Me.Panel1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Panel1.Location = New System.Drawing.Point(269, 57)
+        Me.Panel1.Location = New System.Drawing.Point(273, 57)
         Me.Panel1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(361, 462)
+        Me.Panel1.Size = New System.Drawing.Size(366, 462)
         Me.Panel1.TabIndex = 0
         '
         'TextBox2
@@ -705,7 +708,7 @@ Partial Class FormEnroll
         Me.TextBox2.Location = New System.Drawing.Point(0, 74)
         Me.TextBox2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(361, 22)
+        Me.TextBox2.Size = New System.Drawing.Size(366, 22)
         Me.TextBox2.TabIndex = 3
         '
         'Label2
@@ -725,7 +728,7 @@ Partial Class FormEnroll
         Me.TextBox1.Location = New System.Drawing.Point(0, 26)
         Me.TextBox1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(361, 22)
+        Me.TextBox1.Size = New System.Drawing.Size(366, 22)
         Me.TextBox1.TabIndex = 1
         '
         'Label1
@@ -746,10 +749,10 @@ Partial Class FormEnroll
         Me.Panel2.Controls.Add(Me.TextBox3)
         Me.Panel2.Controls.Add(Me.Label3)
         Me.Panel2.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Panel2.Location = New System.Drawing.Point(816, 57)
+        Me.Panel2.Location = New System.Drawing.Point(827, 57)
         Me.Panel2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(365, 462)
+        Me.Panel2.Size = New System.Drawing.Size(370, 462)
         Me.Panel2.TabIndex = 1
         '
         'TextBox4
@@ -758,7 +761,7 @@ Partial Class FormEnroll
         Me.TextBox4.Location = New System.Drawing.Point(0, 74)
         Me.TextBox4.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(365, 22)
+        Me.TextBox4.Size = New System.Drawing.Size(370, 22)
         Me.TextBox4.TabIndex = 3
         '
         'Label4
@@ -778,7 +781,7 @@ Partial Class FormEnroll
         Me.TextBox3.Location = New System.Drawing.Point(0, 26)
         Me.TextBox3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(365, 22)
+        Me.TextBox3.Size = New System.Drawing.Size(370, 22)
         Me.TextBox3.TabIndex = 1
         '
         'Label3
@@ -801,10 +804,10 @@ Partial Class FormEnroll
         Me.Panel3.Controls.Add(Me.TextBox5)
         Me.Panel3.Controls.Add(Me.Label5)
         Me.Panel3.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Panel3.Location = New System.Drawing.Point(269, 585)
+        Me.Panel3.Location = New System.Drawing.Point(273, 585)
         Me.Panel3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Panel3.Name = "Panel3"
-        Me.Panel3.Size = New System.Drawing.Size(361, 453)
+        Me.Panel3.Size = New System.Drawing.Size(366, 453)
         Me.Panel3.TabIndex = 2
         '
         'DateTimePicker1
@@ -814,7 +817,7 @@ Partial Class FormEnroll
         Me.DateTimePicker1.Location = New System.Drawing.Point(0, 122)
         Me.DateTimePicker1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.DateTimePicker1.Name = "DateTimePicker1"
-        Me.DateTimePicker1.Size = New System.Drawing.Size(361, 22)
+        Me.DateTimePicker1.Size = New System.Drawing.Size(366, 22)
         Me.DateTimePicker1.TabIndex = 5
         '
         'Label7
@@ -834,7 +837,7 @@ Partial Class FormEnroll
         Me.TextBox6.Location = New System.Drawing.Point(0, 74)
         Me.TextBox6.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.TextBox6.Name = "TextBox6"
-        Me.TextBox6.Size = New System.Drawing.Size(361, 22)
+        Me.TextBox6.Size = New System.Drawing.Size(366, 22)
         Me.TextBox6.TabIndex = 3
         '
         'Label6
@@ -854,7 +857,7 @@ Partial Class FormEnroll
         Me.TextBox5.Location = New System.Drawing.Point(0, 26)
         Me.TextBox5.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.TextBox5.Name = "TextBox5"
-        Me.TextBox5.Size = New System.Drawing.Size(361, 22)
+        Me.TextBox5.Size = New System.Drawing.Size(366, 22)
         Me.TextBox5.TabIndex = 1
         '
         'Label5
@@ -875,10 +878,10 @@ Partial Class FormEnroll
         Me.Panel4.Controls.Add(Me.TextBox7)
         Me.Panel4.Controls.Add(Me.Label8)
         Me.Panel4.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Panel4.Location = New System.Drawing.Point(816, 585)
+        Me.Panel4.Location = New System.Drawing.Point(827, 585)
         Me.Panel4.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Panel4.Name = "Panel4"
-        Me.Panel4.Size = New System.Drawing.Size(365, 453)
+        Me.Panel4.Size = New System.Drawing.Size(370, 453)
         Me.Panel4.TabIndex = 3
         '
         'ComboBox1
@@ -889,7 +892,7 @@ Partial Class FormEnroll
         Me.ComboBox1.Location = New System.Drawing.Point(0, 74)
         Me.ComboBox1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(365, 24)
+        Me.ComboBox1.Size = New System.Drawing.Size(370, 24)
         Me.ComboBox1.TabIndex = 3
         '
         'Label9
@@ -909,7 +912,7 @@ Partial Class FormEnroll
         Me.TextBox7.Location = New System.Drawing.Point(0, 26)
         Me.TextBox7.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.TextBox7.Name = "TextBox7"
-        Me.TextBox7.Size = New System.Drawing.Size(365, 22)
+        Me.TextBox7.Size = New System.Drawing.Size(370, 22)
         Me.TextBox7.TabIndex = 1
         '
         'Label8
@@ -923,15 +926,39 @@ Partial Class FormEnroll
         Me.Label8.TabIndex = 0
         Me.Label8.Text = "CONTACT NO:"
         '
+        'MenuStrip1
+        '
+        Me.MenuStrip1.BackgroundImage = Global.ACT3_MACAPAGAL_LUZADA.My.Resources.Resources.FRONT1
+        Me.MenuStrip1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
+        Me.MenuStrip1.ImageScalingSize = New System.Drawing.Size(20, 20)
+        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripComboBox1})
+        Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
+        Me.MenuStrip1.Name = "MenuStrip1"
+        Me.MenuStrip1.Size = New System.Drawing.Size(1540, 51)
+        Me.MenuStrip1.TabIndex = 2
+        Me.MenuStrip1.Text = "MenuStrip1"
+        '
+        'ToolStripComboBox1
+        '
+        Me.ToolStripComboBox1.BackColor = System.Drawing.Color.Maroon
+        Me.ToolStripComboBox1.Font = New System.Drawing.Font("Calisto MT", 19.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ToolStripComboBox1.ForeColor = System.Drawing.SystemColors.Info
+        Me.ToolStripComboBox1.Items.AddRange(New Object() {"Home", "About Us", "Events", "Shop", "Enroll", "Library", "Games"})
+        Me.ToolStripComboBox1.Name = "ToolStripComboBox1"
+        Me.ToolStripComboBox1.Size = New System.Drawing.Size(250, 47)
+        Me.ToolStripComboBox1.Text = "        MENU"
+        '
         'FormEnroll
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.AutoScroll = True
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ClientSize = New System.Drawing.Size(1540, 683)
+        Me.ClientSize = New System.Drawing.Size(1561, 683)
         Me.Controls.Add(Me.TableLayoutPanel2)
         Me.Controls.Add(Me.TableLayoutPanel1)
+        Me.Controls.Add(Me.MenuStrip1)
+        Me.MainMenuStrip = Me.MenuStrip1
         Me.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Name = "FormEnroll"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
@@ -962,7 +989,10 @@ Partial Class FormEnroll
         Me.Panel3.PerformLayout()
         Me.Panel4.ResumeLayout(False)
         Me.Panel4.PerformLayout()
+        Me.MenuStrip1.ResumeLayout(False)
+        Me.MenuStrip1.PerformLayout()
         Me.ResumeLayout(False)
+        Me.PerformLayout()
 
     End Sub
 
@@ -1032,4 +1062,6 @@ Partial Class FormEnroll
     Friend WithEvents Button1 As Button
     Friend WithEvents lblTotal As Label
     Friend WithEvents Button2 As Button
+    Friend WithEvents MenuStrip1 As MenuStrip
+    Friend WithEvents ToolStripComboBox1 As ToolStripComboBox
 End Class
