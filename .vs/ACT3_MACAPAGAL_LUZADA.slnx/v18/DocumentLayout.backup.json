@@ -3,15 +3,31 @@
   "WorkspaceRootPath": "C:\\Users\\Aaron\\source\\repos\\ACT3_MACAPAGAL_LUZADA\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F7BAE261-C134-4B4D-863D-594E26BB1DB3}|ACT3_MACAPAGAL_LUZADA.vbproj|c:\\users\\aaron\\source\\repos\\act3_macapagal_luzada\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "AbsoluteMoniker": "D:0:0:{F7BAE261-C134-4B4D-863D-594E26BB1DB3}|ACT3_MACAPAGAL_LUZADA.vbproj|c:\\users\\aaron\\source\\repos\\act3_macapagal_luzada\\formactivities.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{F7BAE261-C134-4B4D-863D-594E26BB1DB3}|ACT3_MACAPAGAL_LUZADA.vbproj|solutionrelative:formactivities.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7BAE261-C134-4B4D-863D-594E26BB1DB3}|ACT3_MACAPAGAL_LUZADA.vbproj|C:\\Users\\Aaron\\source\\repos\\ACT3_MACAPAGAL_LUZADA\\formactivities.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{F7BAE261-C134-4B4D-863D-594E26BB1DB3}|ACT3_MACAPAGAL_LUZADA.vbproj|solutionrelative:formactivities.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7BAE261-C134-4B4D-863D-594E26BB1DB3}|ACT3_MACAPAGAL_LUZADA.vbproj|C:\\Users\\Aaron\\source\\repos\\ACT3_MACAPAGAL_LUZADA\\formenroll.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{F7BAE261-C134-4B4D-863D-594E26BB1DB3}|ACT3_MACAPAGAL_LUZADA.vbproj|solutionrelative:formenroll.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7BAE261-C134-4B4D-863D-594E26BB1DB3}|ACT3_MACAPAGAL_LUZADA.vbproj|C:\\Users\\Aaron\\source\\repos\\ACT3_MACAPAGAL_LUZADA\\formenroll.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{F7BAE261-C134-4B4D-863D-594E26BB1DB3}|ACT3_MACAPAGAL_LUZADA.vbproj|solutionrelative:formenroll.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7BAE261-C134-4B4D-863D-594E26BB1DB3}|ACT3_MACAPAGAL_LUZADA.vbproj|C:\\Users\\Aaron\\source\\repos\\ACT3_MACAPAGAL_LUZADA\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
       "RelativeMoniker": "D:0:0:{F7BAE261-C134-4B4D-863D-594E26BB1DB3}|ACT3_MACAPAGAL_LUZADA.vbproj|solutionrelative:form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|ACT3_MACAPAGAL_LUZADA||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+      "AbsoluteMoniker": "D:0:0:{F7BAE261-C134-4B4D-863D-594E26BB1DB3}|ACT3_MACAPAGAL_LUZADA.vbproj|C:\\Users\\Aaron\\source\\repos\\ACT3_MACAPAGAL_LUZADA\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{F7BAE261-C134-4B4D-863D-594E26BB1DB3}|ACT3_MACAPAGAL_LUZADA.vbproj|solutionrelative:form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F7BAE261-C134-4B4D-863D-594E26BB1DB3}|ACT3_MACAPAGAL_LUZADA.vbproj|c:\\users\\aaron\\source\\repos\\act3_macapagal_luzada\\my project\\resources.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
-      "RelativeMoniker": "D:0:0:{F7BAE261-C134-4B4D-863D-594E26BB1DB3}|ACT3_MACAPAGAL_LUZADA.vbproj|solutionrelative:my project\\resources.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|ACT3_MACAPAGAL_LUZADA||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -21,32 +37,113 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "ACT3_MACAPAGAL_LUZADA",
               "DocumentMoniker": "C:\\Users\\Aaron\\source\\repos\\ACT3_MACAPAGAL_LUZADA\\ACT3_MACAPAGAL_LUZADA.vbproj",
               "RelativeDocumentMoniker": "ACT3_MACAPAGAL_LUZADA.vbproj",
               "ToolTip": "C:\\Users\\Aaron\\source\\repos\\ACT3_MACAPAGAL_LUZADA\\ACT3_MACAPAGAL_LUZADA.vbproj",
               "RelativeToolTip": "ACT3_MACAPAGAL_LUZADA.vbproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-02-02T07:14:55.874Z",
+              "WhenOpened": "2026-01-27T12:16:38.117Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FormActivities.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\Aaron\\source\\repos\\ACT3_MACAPAGAL_LUZADA\\FormActivities.vb",
+              "RelativeDocumentMoniker": "FormActivities.vb",
+              "ToolTip": "C:\\Users\\Aaron\\source\\repos\\ACT3_MACAPAGAL_LUZADA\\FormActivities.vb [Design]",
+              "RelativeToolTip": "FormActivities.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-02-07T14:28:38.55Z",
               "IsPinned": true,
-              "EditorCaption": ""
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Form1.vb",
+              "DocumentMoniker": "C:\\Users\\Aaron\\source\\repos\\ACT3_MACAPAGAL_LUZADA\\Form1.vb",
+              "RelativeDocumentMoniker": "Form1.vb",
+              "ToolTip": "C:\\Users\\Aaron\\source\\repos\\ACT3_MACAPAGAL_LUZADA\\Form1.vb",
+              "RelativeToolTip": "Form1.vb",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAAACsAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-02-08T04:54:03.542Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "FormActivities.vb",
+              "DocumentMoniker": "C:\\Users\\Aaron\\source\\repos\\ACT3_MACAPAGAL_LUZADA\\FormActivities.vb",
+              "RelativeDocumentMoniker": "FormActivities.vb",
+              "ToolTip": "C:\\Users\\Aaron\\source\\repos\\ACT3_MACAPAGAL_LUZADA\\FormActivities.vb",
+              "RelativeToolTip": "FormActivities.vb",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAYwJ4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-02-08T03:04:24.747Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FormEnroll.vb",
+              "DocumentMoniker": "C:\\Users\\Aaron\\source\\repos\\ACT3_MACAPAGAL_LUZADA\\FormEnroll.vb",
+              "RelativeDocumentMoniker": "FormEnroll.vb",
+              "ToolTip": "C:\\Users\\Aaron\\source\\repos\\ACT3_MACAPAGAL_LUZADA\\FormEnroll.vb",
+              "RelativeToolTip": "FormEnroll.vb",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAEwHkAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-02-07T12:47:21.386Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FormEnroll.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\Aaron\\source\\repos\\ACT3_MACAPAGAL_LUZADA\\FormEnroll.vb",
+              "RelativeDocumentMoniker": "FormEnroll.vb",
+              "ToolTip": "C:\\Users\\Aaron\\source\\repos\\ACT3_MACAPAGAL_LUZADA\\FormEnroll.vb [Design]",
+              "RelativeToolTip": "FormEnroll.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-02-06T13:01:07.093Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Form1.vb [Design]",
               "DocumentMoniker": "C:\\Users\\Aaron\\source\\repos\\ACT3_MACAPAGAL_LUZADA\\Form1.vb",
               "RelativeDocumentMoniker": "Form1.vb",
               "ToolTip": "C:\\Users\\Aaron\\source\\repos\\ACT3_MACAPAGAL_LUZADA\\Form1.vb [Design]",
               "RelativeToolTip": "Form1.vb [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2026-02-02T07:14:30.986Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-02-06T12:54:01.626Z"
             }
           ]
         }

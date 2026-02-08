@@ -119,7 +119,7 @@
     End Sub
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
-        Form1.Show()
+        FormActivities.Show()
         Me.Hide()
     End Sub
 
@@ -161,6 +161,10 @@
     End Sub
 
     Private Sub ToolStripComboBox1_Click_1(sender As Object, e As EventArgs) Handles ToolStripComboBox1.Click
+
+    End Sub
+
+    Private Sub Label15_Click(sender As Object, e As EventArgs) Handles Label15.Click
 
     End Sub
 End Class

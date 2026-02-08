@@ -110,7 +110,7 @@ Partial Class FormLibrary
         '
         Me.CheckedListBox1.BackColor = System.Drawing.Color.Maroon
         Me.CheckedListBox1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.CheckedListBox1.Font = New System.Drawing.Font("Calisto MT", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckedListBox1.Font = New System.Drawing.Font("Franklin Gothic Heavy", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.CheckedListBox1.ForeColor = System.Drawing.SystemColors.Info
         Me.CheckedListBox1.FormattingEnabled = True
         Me.CheckedListBox1.Items.AddRange(New Object() {"Mathematics Textbook", "English Textbook", "English Literature", "Filipino Textbook", "Filipino Literature", "Mapeh Textbook", "Science Textbook", "Local Scientific Journal", "Science International Journal"})
@@ -202,10 +202,10 @@ Partial Class FormLibrary
         '
         Me.ListBox1.BackColor = System.Drawing.Color.DarkRed
         Me.ListBox1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.ListBox1.Font = New System.Drawing.Font("Calisto MT", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ListBox1.Font = New System.Drawing.Font("Franklin Gothic Demi", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ListBox1.ForeColor = System.Drawing.SystemColors.Info
         Me.ListBox1.FormattingEnabled = True
-        Me.ListBox1.ItemHeight = 19
+        Me.ListBox1.ItemHeight = 21
         Me.ListBox1.Location = New System.Drawing.Point(0, 0)
         Me.ListBox1.Margin = New System.Windows.Forms.Padding(4)
         Me.ListBox1.Name = "ListBox1"
@@ -228,7 +228,7 @@ Partial Class FormLibrary
         Me.Button1.BackColor = System.Drawing.Color.Maroon
         Me.Button1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup
-        Me.Button1.Font = New System.Drawing.Font("Calisto MT", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button1.Font = New System.Drawing.Font("Franklin Gothic Medium", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.ForeColor = System.Drawing.SystemColors.Info
         Me.Button1.Location = New System.Drawing.Point(0, 0)
         Me.Button1.Margin = New System.Windows.Forms.Padding(4)
@@ -276,7 +276,7 @@ Partial Class FormLibrary
         Me.Button2.BackColor = System.Drawing.Color.Maroon
         Me.Button2.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup
-        Me.Button2.Font = New System.Drawing.Font("Calisto MT", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button2.Font = New System.Drawing.Font("Franklin Gothic Medium", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button2.ForeColor = System.Drawing.SystemColors.Info
         Me.Button2.Location = New System.Drawing.Point(0, 0)
         Me.Button2.Margin = New System.Windows.Forms.Padding(4)
@@ -301,7 +301,7 @@ Partial Class FormLibrary
         Me.Button3.BackColor = System.Drawing.Color.Maroon
         Me.Button3.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Popup
-        Me.Button3.Font = New System.Drawing.Font("Calisto MT", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button3.Font = New System.Drawing.Font("Franklin Gothic Medium", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button3.ForeColor = System.Drawing.SystemColors.Info
         Me.Button3.Location = New System.Drawing.Point(0, 0)
         Me.Button3.Margin = New System.Windows.Forms.Padding(4)

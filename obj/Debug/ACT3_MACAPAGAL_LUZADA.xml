@@ -102,6 +102,11 @@ ACT3_MACAPAGAL_LUZADA
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:ACT3_MACAPAGAL_LUZADA.My.Resources.Resources.SCREEN">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:ACT3_MACAPAGAL_LUZADA.My.Resources.Resources.SHOPDIRECTORY">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.

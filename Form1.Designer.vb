@@ -52,7 +52,7 @@ Partial Class Form1
         Me.TableLayoutPanel2.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 18.88361!))
         Me.TableLayoutPanel2.Controls.Add(Me.Button4, 2, 1)
         Me.TableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Top
-        Me.TableLayoutPanel2.Location = New System.Drawing.Point(0, 1053)
+        Me.TableLayoutPanel2.Location = New System.Drawing.Point(0, 1054)
         Me.TableLayoutPanel2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.TableLayoutPanel2.Name = "TableLayoutPanel2"
         Me.TableLayoutPanel2.RowCount = 4
@@ -69,7 +69,8 @@ Partial Class Form1
         Me.Button4.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Button4.FlatAppearance.BorderSize = 0
         Me.Button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button4.Font = New System.Drawing.Font("Calisto MT", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button4.Font = New System.Drawing.Font("Franklin Gothic Heavy", 25.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button4.ForeColor = System.Drawing.Color.DarkRed
         Me.Button4.Location = New System.Drawing.Point(516, 340)
         Me.Button4.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Button4.Name = "Button4"
@@ -96,7 +97,7 @@ Partial Class Form1
         Me.TableLayoutPanel1.Controls.Add(Me.Panel2, 3, 1)
         Me.TableLayoutPanel1.Controls.Add(Me.Panel3, 5, 1)
         Me.TableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Top
-        Me.TableLayoutPanel1.Location = New System.Drawing.Point(0, 54)
+        Me.TableLayoutPanel1.Location = New System.Drawing.Point(0, 55)
         Me.TableLayoutPanel1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.TableLayoutPanel1.Name = "TableLayoutPanel1"
         Me.TableLayoutPanel1.RowCount = 3
@@ -122,7 +123,8 @@ Partial Class Form1
         Me.Button1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Button1.FlatAppearance.BorderSize = 0
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button1.Font = New System.Drawing.Font("Calisto MT", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button1.Font = New System.Drawing.Font("Franklin Gothic Heavy", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button1.ForeColor = System.Drawing.Color.DarkRed
         Me.Button1.Location = New System.Drawing.Point(0, 0)
         Me.Button1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Button1.Name = "Button1"
@@ -147,7 +149,8 @@ Partial Class Form1
         Me.Button2.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Button2.FlatAppearance.BorderSize = 0
         Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button2.Font = New System.Drawing.Font("Calisto MT", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button2.Font = New System.Drawing.Font("Franklin Gothic Heavy", 22.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button2.ForeColor = System.Drawing.Color.DarkRed
         Me.Button2.Location = New System.Drawing.Point(0, 0)
         Me.Button2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Button2.Name = "Button2"
@@ -172,7 +175,8 @@ Partial Class Form1
         Me.Button3.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Button3.FlatAppearance.BorderSize = 0
         Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button3.Font = New System.Drawing.Font("Calisto MT", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button3.Font = New System.Drawing.Font("Franklin Gothic Heavy", 22.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button3.ForeColor = System.Drawing.Color.DarkRed
         Me.Button3.Location = New System.Drawing.Point(0, 0)
         Me.Button3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Button3.Name = "Button3"
@@ -191,19 +195,19 @@ Partial Class Form1
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
         Me.MenuStrip1.Padding = New System.Windows.Forms.Padding(5, 2, 0, 2)
-        Me.MenuStrip1.Size = New System.Drawing.Size(907, 54)
+        Me.MenuStrip1.Size = New System.Drawing.Size(907, 55)
         Me.MenuStrip1.TabIndex = 2
         Me.MenuStrip1.Text = "MenuStrip1"
         '
         'ToolStripComboBox1
         '
         Me.ToolStripComboBox1.AutoCompleteCustomSource.AddRange(New String() {"LIBRARY", "GAME"})
-        Me.ToolStripComboBox1.BackColor = System.Drawing.Color.Maroon
-        Me.ToolStripComboBox1.Font = New System.Drawing.Font("Calisto MT", 22.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ToolStripComboBox1.ForeColor = System.Drawing.SystemColors.Info
-        Me.ToolStripComboBox1.Items.AddRange(New Object() {"Home", "About Us", "Events", "Shop", "Enroll", "Library", "Games"})
+        Me.ToolStripComboBox1.BackColor = System.Drawing.Color.SeaShell
+        Me.ToolStripComboBox1.Font = New System.Drawing.Font("Franklin Gothic Heavy", 22.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ToolStripComboBox1.ForeColor = System.Drawing.Color.DarkRed
+        Me.ToolStripComboBox1.Items.AddRange(New Object() {"Home", "About Us", "Events", "Shop", "Enroll", "Library", "Games", "Activities"})
         Me.ToolStripComboBox1.Name = "ToolStripComboBox1"
-        Me.ToolStripComboBox1.Size = New System.Drawing.Size(249, 50)
+        Me.ToolStripComboBox1.Size = New System.Drawing.Size(249, 51)
         Me.ToolStripComboBox1.Text = "      MENU"
         '
         'Form1
