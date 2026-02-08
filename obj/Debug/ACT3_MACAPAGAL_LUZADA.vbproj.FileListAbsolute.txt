@@ -15,3 +15,4 @@ C:\Users\Aaron\source\repos\ACT3_MACAPAGAL_LUZADA\obj\Debug\ACT3_MACAPAGAL_LUZAD
 C:\Users\Aaron\source\repos\ACT3_MACAPAGAL_LUZADA\obj\Debug\ACT3_MACAPAGAL_LUZADA.xml
 C:\Users\Aaron\source\repos\ACT3_MACAPAGAL_LUZADA\obj\Debug\ACT3_MACAPAGAL_LUZADA.pdb
 C:\Users\Aaron\source\repos\ACT3_MACAPAGAL_LUZADA\obj\Debug\ACT3_MACAPAGAL_LUZADA.FormLibrary.resources
+C:\Users\Aaron\source\repos\ACT3_MACAPAGAL_LUZADA\obj\Debug\ACT3_MACAPAGAL_LUZADA.FormActivities.resources

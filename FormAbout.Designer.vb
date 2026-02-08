@@ -64,7 +64,7 @@ Partial Class FormAbout
         Me.TableLayoutPanel1.Controls.Add(Me.Panel5, 1, 8)
         Me.TableLayoutPanel1.Controls.Add(Me.Panel6, 1, 10)
         Me.TableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TableLayoutPanel1.Location = New System.Drawing.Point(0, 51)
+        Me.TableLayoutPanel1.Location = New System.Drawing.Point(0, 55)
         Me.TableLayoutPanel1.Name = "TableLayoutPanel1"
         Me.TableLayoutPanel1.RowCount = 12
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 0.8611954!))
@@ -79,17 +79,17 @@ Partial Class FormAbout
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 6.334842!))
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.954751!))
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.444445!))
-        Me.TableLayoutPanel1.Size = New System.Drawing.Size(800, 423)
+        Me.TableLayoutPanel1.Size = New System.Drawing.Size(800, 419)
         Me.TableLayoutPanel1.TabIndex = 0
         '
         'Panel1
         '
         Me.Panel1.Controls.Add(Me.PictureBox1)
         Me.Panel1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Panel1.Location = New System.Drawing.Point(445, 65)
+        Me.Panel1.Location = New System.Drawing.Point(445, 64)
         Me.Panel1.Name = "Panel1"
         Me.TableLayoutPanel1.SetRowSpan(Me.Panel1, 5)
-        Me.Panel1.Size = New System.Drawing.Size(307, 197)
+        Me.Panel1.Size = New System.Drawing.Size(307, 196)
         Me.Panel1.TabIndex = 0
         '
         'PictureBox1
@@ -98,7 +98,7 @@ Partial Class FormAbout
         Me.PictureBox1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.PictureBox1.Location = New System.Drawing.Point(0, 0)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(307, 197)
+        Me.PictureBox1.Size = New System.Drawing.Size(307, 196)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox1.TabIndex = 0
         Me.PictureBox1.TabStop = False
@@ -109,7 +109,7 @@ Partial Class FormAbout
         Me.Panel2.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Panel2.Location = New System.Drawing.Point(56, 13)
         Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(215, 46)
+        Me.Panel2.Size = New System.Drawing.Size(215, 45)
         Me.Panel2.TabIndex = 1
         '
         'Button1
@@ -122,7 +122,7 @@ Partial Class FormAbout
         Me.Button1.ForeColor = System.Drawing.Color.Maroon
         Me.Button1.Location = New System.Drawing.Point(0, 0)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(215, 46)
+        Me.Button1.Size = New System.Drawing.Size(215, 45)
         Me.Button1.TabIndex = 0
         Me.Button1.Text = "MISSION"
         Me.Button1.UseVisualStyleBackColor = True
@@ -131,7 +131,7 @@ Partial Class FormAbout
         '
         Me.Panel3.Controls.Add(Me.Button2)
         Me.Panel3.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Panel3.Location = New System.Drawing.Point(56, 94)
+        Me.Panel3.Location = New System.Drawing.Point(56, 93)
         Me.Panel3.Name = "Panel3"
         Me.Panel3.Size = New System.Drawing.Size(215, 54)
         Me.Panel3.TabIndex = 2
@@ -155,9 +155,9 @@ Partial Class FormAbout
         '
         Me.Panel4.Controls.Add(Me.Button3)
         Me.Panel4.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Panel4.Location = New System.Drawing.Point(56, 182)
+        Me.Panel4.Location = New System.Drawing.Point(56, 181)
         Me.Panel4.Name = "Panel4"
-        Me.Panel4.Size = New System.Drawing.Size(215, 59)
+        Me.Panel4.Size = New System.Drawing.Size(215, 58)
         Me.Panel4.TabIndex = 3
         '
         'Button3
@@ -170,7 +170,7 @@ Partial Class FormAbout
         Me.Button3.ForeColor = System.Drawing.Color.Maroon
         Me.Button3.Location = New System.Drawing.Point(0, 0)
         Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(215, 59)
+        Me.Button3.Size = New System.Drawing.Size(215, 58)
         Me.Button3.TabIndex = 0
         Me.Button3.Text = "HYMN"
         Me.Button3.UseVisualStyleBackColor = True
@@ -179,7 +179,7 @@ Partial Class FormAbout
         '
         Me.Panel5.Controls.Add(Me.Button4)
         Me.Panel5.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Panel5.Location = New System.Drawing.Point(56, 268)
+        Me.Panel5.Location = New System.Drawing.Point(56, 266)
         Me.Panel5.Name = "Panel5"
         Me.Panel5.Size = New System.Drawing.Size(215, 58)
         Me.Panel5.TabIndex = 4
@@ -203,7 +203,7 @@ Partial Class FormAbout
         '
         Me.Panel6.Controls.Add(Me.Button5)
         Me.Panel6.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Panel6.Location = New System.Drawing.Point(56, 359)
+        Me.Panel6.Location = New System.Drawing.Point(56, 356)
         Me.Panel6.Name = "Panel6"
         Me.Panel6.Size = New System.Drawing.Size(215, 36)
         Me.Panel6.TabIndex = 5
@@ -230,19 +230,19 @@ Partial Class FormAbout
         Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripComboBox1})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
-        Me.MenuStrip1.Size = New System.Drawing.Size(800, 51)
+        Me.MenuStrip1.Size = New System.Drawing.Size(800, 55)
         Me.MenuStrip1.TabIndex = 1
         Me.MenuStrip1.Text = "MenuStrip1"
         '
         'ToolStripComboBox1
         '
-        Me.ToolStripComboBox1.BackColor = System.Drawing.Color.Maroon
-        Me.ToolStripComboBox1.Font = New System.Drawing.Font("Calisto MT", 19.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ToolStripComboBox1.ForeColor = System.Drawing.SystemColors.Info
+        Me.ToolStripComboBox1.BackColor = System.Drawing.Color.SeaShell
+        Me.ToolStripComboBox1.Font = New System.Drawing.Font("Franklin Gothic Heavy", 22.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ToolStripComboBox1.ForeColor = System.Drawing.Color.DarkRed
         Me.ToolStripComboBox1.Items.AddRange(New Object() {"Home", "About Us", "Events", "Shop", "Enroll", "Library", "Games"})
         Me.ToolStripComboBox1.Name = "ToolStripComboBox1"
-        Me.ToolStripComboBox1.Size = New System.Drawing.Size(250, 47)
-        Me.ToolStripComboBox1.Text = "        MENU"
+        Me.ToolStripComboBox1.Size = New System.Drawing.Size(250, 51)
+        Me.ToolStripComboBox1.Text = "      MENU"
         '
         'FormAbout
         '

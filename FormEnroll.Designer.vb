@@ -132,7 +132,7 @@ Partial Class FormEnroll
         Me.TableLayoutPanel2.Controls.Add(Me.Panel9, 4, 5)
         Me.TableLayoutPanel2.Controls.Add(Me.Button2, 8, 6)
         Me.TableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Top
-        Me.TableLayoutPanel2.Location = New System.Drawing.Point(0, 1173)
+        Me.TableLayoutPanel2.Location = New System.Drawing.Point(0, 1177)
         Me.TableLayoutPanel2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.TableLayoutPanel2.Name = "TableLayoutPanel2"
         Me.TableLayoutPanel2.RowCount = 9
@@ -171,11 +171,12 @@ Partial Class FormEnroll
         '
         Me.chkcomputer.AutoSize = True
         Me.chkcomputer.Dock = System.Windows.Forms.DockStyle.Top
-        Me.chkcomputer.Font = New System.Drawing.Font("Calisto MT", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.chkcomputer.Location = New System.Drawing.Point(0, 207)
+        Me.chkcomputer.Font = New System.Drawing.Font("Calisto MT", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.chkcomputer.ForeColor = System.Drawing.Color.DarkRed
+        Me.chkcomputer.Location = New System.Drawing.Point(0, 259)
         Me.chkcomputer.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.chkcomputer.Name = "chkcomputer"
-        Me.chkcomputer.Size = New System.Drawing.Size(468, 30)
+        Me.chkcomputer.Size = New System.Drawing.Size(468, 36)
         Me.chkcomputer.TabIndex = 7
         Me.chkcomputer.Text = "COMPUTER - 600"
         Me.chkcomputer.UseVisualStyleBackColor = True
@@ -184,24 +185,26 @@ Partial Class FormEnroll
         '
         Me.chkesp.AutoSize = True
         Me.chkesp.Dock = System.Windows.Forms.DockStyle.Top
-        Me.chkesp.Font = New System.Drawing.Font("Calisto MT", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.chkesp.Location = New System.Drawing.Point(0, 177)
+        Me.chkesp.Font = New System.Drawing.Font("Calisto MT", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.chkesp.ForeColor = System.Drawing.Color.DarkRed
+        Me.chkesp.Location = New System.Drawing.Point(0, 223)
         Me.chkesp.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.chkesp.Name = "chkesp"
-        Me.chkesp.Size = New System.Drawing.Size(468, 30)
+        Me.chkesp.Size = New System.Drawing.Size(468, 36)
         Me.chkesp.TabIndex = 6
-        Me.chkesp.Text = "EDUKASAYON SA PAGPAPAKATAO - 700"
+        Me.chkesp.Text = "ESP - 700"
         Me.chkesp.UseVisualStyleBackColor = True
         '
         'chkap
         '
         Me.chkap.AutoSize = True
         Me.chkap.Dock = System.Windows.Forms.DockStyle.Top
-        Me.chkap.Font = New System.Drawing.Font("Calisto MT", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.chkap.Location = New System.Drawing.Point(0, 147)
+        Me.chkap.Font = New System.Drawing.Font("Calisto MT", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.chkap.ForeColor = System.Drawing.Color.DarkRed
+        Me.chkap.Location = New System.Drawing.Point(0, 187)
         Me.chkap.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.chkap.Name = "chkap"
-        Me.chkap.Size = New System.Drawing.Size(468, 30)
+        Me.chkap.Size = New System.Drawing.Size(468, 36)
         Me.chkap.TabIndex = 5
         Me.chkap.Text = "ARALING PANLIPUNAN - 800"
         Me.chkap.UseVisualStyleBackColor = True
@@ -210,11 +213,12 @@ Partial Class FormEnroll
         '
         Me.chkfilipino.AutoSize = True
         Me.chkfilipino.Dock = System.Windows.Forms.DockStyle.Top
-        Me.chkfilipino.Font = New System.Drawing.Font("Calisto MT", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.chkfilipino.Location = New System.Drawing.Point(0, 117)
+        Me.chkfilipino.Font = New System.Drawing.Font("Calisto MT", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.chkfilipino.ForeColor = System.Drawing.Color.DarkRed
+        Me.chkfilipino.Location = New System.Drawing.Point(0, 151)
         Me.chkfilipino.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.chkfilipino.Name = "chkfilipino"
-        Me.chkfilipino.Size = New System.Drawing.Size(468, 30)
+        Me.chkfilipino.Size = New System.Drawing.Size(468, 36)
         Me.chkfilipino.TabIndex = 4
         Me.chkfilipino.Text = "FILIPINO - 900"
         Me.chkfilipino.UseVisualStyleBackColor = True
@@ -223,11 +227,12 @@ Partial Class FormEnroll
         '
         Me.chkenglish.AutoSize = True
         Me.chkenglish.Dock = System.Windows.Forms.DockStyle.Top
-        Me.chkenglish.Font = New System.Drawing.Font("Calisto MT", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.chkenglish.Location = New System.Drawing.Point(0, 87)
+        Me.chkenglish.Font = New System.Drawing.Font("Calisto MT", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.chkenglish.ForeColor = System.Drawing.Color.DarkRed
+        Me.chkenglish.Location = New System.Drawing.Point(0, 115)
         Me.chkenglish.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.chkenglish.Name = "chkenglish"
-        Me.chkenglish.Size = New System.Drawing.Size(468, 30)
+        Me.chkenglish.Size = New System.Drawing.Size(468, 36)
         Me.chkenglish.TabIndex = 3
         Me.chkenglish.Text = "ENGLISH - 700"
         Me.chkenglish.UseVisualStyleBackColor = True
@@ -236,11 +241,12 @@ Partial Class FormEnroll
         '
         Me.chkscience.AutoSize = True
         Me.chkscience.Dock = System.Windows.Forms.DockStyle.Top
-        Me.chkscience.Font = New System.Drawing.Font("Californian FB", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.chkscience.Location = New System.Drawing.Point(0, 56)
+        Me.chkscience.Font = New System.Drawing.Font("Calisto MT", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.chkscience.ForeColor = System.Drawing.Color.DarkRed
+        Me.chkscience.Location = New System.Drawing.Point(0, 79)
         Me.chkscience.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.chkscience.Name = "chkscience"
-        Me.chkscience.Size = New System.Drawing.Size(468, 31)
+        Me.chkscience.Size = New System.Drawing.Size(468, 36)
         Me.chkscience.TabIndex = 2
         Me.chkscience.Text = "SCIENCE - 1000"
         Me.chkscience.UseVisualStyleBackColor = True
@@ -249,11 +255,12 @@ Partial Class FormEnroll
         '
         Me.chkmath.AutoSize = True
         Me.chkmath.Dock = System.Windows.Forms.DockStyle.Top
-        Me.chkmath.Font = New System.Drawing.Font("Calisto MT", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.chkmath.Location = New System.Drawing.Point(0, 26)
+        Me.chkmath.Font = New System.Drawing.Font("Calisto MT", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.chkmath.ForeColor = System.Drawing.Color.DarkRed
+        Me.chkmath.Location = New System.Drawing.Point(0, 43)
         Me.chkmath.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.chkmath.Name = "chkmath"
-        Me.chkmath.Size = New System.Drawing.Size(468, 30)
+        Me.chkmath.Size = New System.Drawing.Size(468, 36)
         Me.chkmath.TabIndex = 1
         Me.chkmath.Text = "MATH - 1000"
         Me.chkmath.UseVisualStyleBackColor = True
@@ -262,10 +269,11 @@ Partial Class FormEnroll
         '
         Me.Label10.AutoSize = True
         Me.Label10.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Label10.Font = New System.Drawing.Font("Calisto MT", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label10.Font = New System.Drawing.Font("Franklin Gothic Demi Cond", 22.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label10.ForeColor = System.Drawing.Color.DarkRed
         Me.Label10.Location = New System.Drawing.Point(0, 0)
         Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(100, 26)
+        Me.Label10.Size = New System.Drawing.Size(130, 43)
         Me.Label10.TabIndex = 0
         Me.Label10.Text = "BOOKS:"
         '
@@ -304,46 +312,47 @@ Partial Class FormEnroll
         Me.GroupBox1.Controls.Add(Me.Label14)
         Me.GroupBox1.Controls.Add(Me.Label13)
         Me.GroupBox1.Dock = System.Windows.Forms.DockStyle.Top
-        Me.GroupBox1.Location = New System.Drawing.Point(0, 46)
+        Me.GroupBox1.Font = New System.Drawing.Font("Franklin Gothic Medium", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.GroupBox1.ForeColor = System.Drawing.Color.DarkRed
+        Me.GroupBox1.Location = New System.Drawing.Point(0, 75)
         Me.GroupBox1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.GroupBox1.Name = "GroupBox1"
         Me.GroupBox1.Padding = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.GroupBox1.Size = New System.Drawing.Size(471, 215)
+        Me.GroupBox1.Size = New System.Drawing.Size(471, 232)
         Me.GroupBox1.TabIndex = 2
         Me.GroupBox1.TabStop = False
-        Me.GroupBox1.Text = "GroupBox1"
         '
         'SkirtQuantity
         '
-        Me.SkirtQuantity.Location = New System.Drawing.Point(373, 96)
+        Me.SkirtQuantity.Location = New System.Drawing.Point(454, 188)
         Me.SkirtQuantity.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.SkirtQuantity.Name = "SkirtQuantity"
-        Me.SkirtQuantity.Size = New System.Drawing.Size(91, 22)
+        Me.SkirtQuantity.Size = New System.Drawing.Size(91, 38)
         Me.SkirtQuantity.TabIndex = 17
         '
         'PantsQuantity
         '
-        Me.PantsQuantity.Location = New System.Drawing.Point(373, 53)
+        Me.PantsQuantity.Location = New System.Drawing.Point(454, 113)
         Me.PantsQuantity.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.PantsQuantity.Name = "PantsQuantity"
-        Me.PantsQuantity.Size = New System.Drawing.Size(91, 22)
+        Me.PantsQuantity.Size = New System.Drawing.Size(91, 38)
         Me.PantsQuantity.TabIndex = 16
         '
         'PoloQuantity
         '
-        Me.PoloQuantity.Location = New System.Drawing.Point(373, 18)
+        Me.PoloQuantity.Location = New System.Drawing.Point(454, 31)
         Me.PoloQuantity.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.PoloQuantity.Name = "PoloQuantity"
-        Me.PoloQuantity.Size = New System.Drawing.Size(91, 22)
+        Me.PoloQuantity.Size = New System.Drawing.Size(91, 38)
         Me.PoloQuantity.TabIndex = 15
         '
         'chkpantsxl
         '
         Me.chkpantsxl.AutoSize = True
-        Me.chkpantsxl.Location = New System.Drawing.Point(283, 54)
+        Me.chkpantsxl.Location = New System.Drawing.Point(363, 111)
         Me.chkpantsxl.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.chkpantsxl.Name = "chkpantsxl"
-        Me.chkpantsxl.Size = New System.Drawing.Size(50, 20)
+        Me.chkpantsxl.Size = New System.Drawing.Size(85, 40)
         Me.chkpantsxl.TabIndex = 14
         Me.chkpantsxl.Text = "850"
         Me.chkpantsxl.UseVisualStyleBackColor = True
@@ -351,10 +360,10 @@ Partial Class FormEnroll
         'chkskirtxl
         '
         Me.chkskirtxl.AutoSize = True
-        Me.chkskirtxl.Location = New System.Drawing.Point(283, 98)
+        Me.chkskirtxl.Location = New System.Drawing.Point(363, 188)
         Me.chkskirtxl.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.chkskirtxl.Name = "chkskirtxl"
-        Me.chkskirtxl.Size = New System.Drawing.Size(50, 20)
+        Me.chkskirtxl.Size = New System.Drawing.Size(85, 40)
         Me.chkskirtxl.TabIndex = 13
         Me.chkskirtxl.Text = "850"
         Me.chkskirtxl.UseVisualStyleBackColor = True
@@ -362,10 +371,10 @@ Partial Class FormEnroll
         'chkPoloxl
         '
         Me.chkPoloxl.AutoSize = True
-        Me.chkPoloxl.Location = New System.Drawing.Point(283, 18)
+        Me.chkPoloxl.Location = New System.Drawing.Point(363, 32)
         Me.chkPoloxl.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.chkPoloxl.Name = "chkPoloxl"
-        Me.chkPoloxl.Size = New System.Drawing.Size(50, 20)
+        Me.chkPoloxl.Size = New System.Drawing.Size(85, 40)
         Me.chkPoloxl.TabIndex = 12
         Me.chkPoloxl.Text = "650"
         Me.chkPoloxl.UseVisualStyleBackColor = True
@@ -373,10 +382,10 @@ Partial Class FormEnroll
         'chkskirtlarge
         '
         Me.chkskirtlarge.AutoSize = True
-        Me.chkskirtlarge.Location = New System.Drawing.Point(204, 98)
+        Me.chkskirtlarge.Location = New System.Drawing.Point(283, 188)
         Me.chkskirtlarge.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.chkskirtlarge.Name = "chkskirtlarge"
-        Me.chkskirtlarge.Size = New System.Drawing.Size(50, 20)
+        Me.chkskirtlarge.Size = New System.Drawing.Size(85, 40)
         Me.chkskirtlarge.TabIndex = 11
         Me.chkskirtlarge.Text = "800"
         Me.chkskirtlarge.UseVisualStyleBackColor = True
@@ -384,10 +393,10 @@ Partial Class FormEnroll
         'chkpantslarge
         '
         Me.chkpantslarge.AutoSize = True
-        Me.chkpantslarge.Location = New System.Drawing.Point(204, 54)
+        Me.chkpantslarge.Location = New System.Drawing.Point(283, 111)
         Me.chkpantslarge.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.chkpantslarge.Name = "chkpantslarge"
-        Me.chkpantslarge.Size = New System.Drawing.Size(50, 20)
+        Me.chkpantslarge.Size = New System.Drawing.Size(85, 40)
         Me.chkpantslarge.TabIndex = 10
         Me.chkpantslarge.Text = "800"
         Me.chkpantslarge.UseVisualStyleBackColor = True
@@ -395,10 +404,10 @@ Partial Class FormEnroll
         'chkPololarge
         '
         Me.chkPololarge.AutoSize = True
-        Me.chkPololarge.Location = New System.Drawing.Point(204, 15)
+        Me.chkPololarge.Location = New System.Drawing.Point(283, 29)
         Me.chkPololarge.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.chkPololarge.Name = "chkPololarge"
-        Me.chkPololarge.Size = New System.Drawing.Size(50, 20)
+        Me.chkPololarge.Size = New System.Drawing.Size(85, 40)
         Me.chkPololarge.TabIndex = 9
         Me.chkPololarge.Text = "600"
         Me.chkPololarge.UseVisualStyleBackColor = True
@@ -406,10 +415,10 @@ Partial Class FormEnroll
         'chkskirtmed
         '
         Me.chkskirtmed.AutoSize = True
-        Me.chkskirtmed.Location = New System.Drawing.Point(132, 98)
+        Me.chkskirtmed.Location = New System.Drawing.Point(204, 188)
         Me.chkskirtmed.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.chkskirtmed.Name = "chkskirtmed"
-        Me.chkskirtmed.Size = New System.Drawing.Size(50, 20)
+        Me.chkskirtmed.Size = New System.Drawing.Size(85, 40)
         Me.chkskirtmed.TabIndex = 8
         Me.chkskirtmed.Text = "750"
         Me.chkskirtmed.UseVisualStyleBackColor = True
@@ -417,10 +426,10 @@ Partial Class FormEnroll
         'chkpantsmed
         '
         Me.chkpantsmed.AutoSize = True
-        Me.chkpantsmed.Location = New System.Drawing.Point(132, 50)
+        Me.chkpantsmed.Location = New System.Drawing.Point(204, 111)
         Me.chkpantsmed.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.chkpantsmed.Name = "chkpantsmed"
-        Me.chkpantsmed.Size = New System.Drawing.Size(50, 20)
+        Me.chkpantsmed.Size = New System.Drawing.Size(85, 40)
         Me.chkpantsmed.TabIndex = 7
         Me.chkpantsmed.Text = "750"
         Me.chkpantsmed.UseVisualStyleBackColor = True
@@ -428,10 +437,10 @@ Partial Class FormEnroll
         'chkPolomed
         '
         Me.chkPolomed.AutoSize = True
-        Me.chkPolomed.Location = New System.Drawing.Point(132, 16)
+        Me.chkPolomed.Location = New System.Drawing.Point(204, 31)
         Me.chkPolomed.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.chkPolomed.Name = "chkPolomed"
-        Me.chkPolomed.Size = New System.Drawing.Size(50, 20)
+        Me.chkPolomed.Size = New System.Drawing.Size(85, 40)
         Me.chkPolomed.TabIndex = 6
         Me.chkPolomed.Text = "550"
         Me.chkPolomed.UseVisualStyleBackColor = True
@@ -439,10 +448,10 @@ Partial Class FormEnroll
         'chkskirtsmall
         '
         Me.chkskirtsmall.AutoSize = True
-        Me.chkskirtsmall.Location = New System.Drawing.Point(63, 98)
+        Me.chkskirtsmall.Location = New System.Drawing.Point(123, 188)
         Me.chkskirtsmall.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.chkskirtsmall.Name = "chkskirtsmall"
-        Me.chkskirtsmall.Size = New System.Drawing.Size(50, 20)
+        Me.chkskirtsmall.Size = New System.Drawing.Size(85, 40)
         Me.chkskirtsmall.TabIndex = 5
         Me.chkskirtsmall.Text = "700"
         Me.chkskirtsmall.UseVisualStyleBackColor = True
@@ -450,10 +459,10 @@ Partial Class FormEnroll
         'chkpantssmall
         '
         Me.chkpantssmall.AutoSize = True
-        Me.chkpantssmall.Location = New System.Drawing.Point(63, 54)
+        Me.chkpantssmall.Location = New System.Drawing.Point(123, 111)
         Me.chkpantssmall.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.chkpantssmall.Name = "chkpantssmall"
-        Me.chkpantssmall.Size = New System.Drawing.Size(50, 20)
+        Me.chkpantssmall.Size = New System.Drawing.Size(85, 40)
         Me.chkpantssmall.TabIndex = 4
         Me.chkpantssmall.Text = "700"
         Me.chkpantssmall.UseVisualStyleBackColor = True
@@ -461,10 +470,10 @@ Partial Class FormEnroll
         'chkPolosmall
         '
         Me.chkPolosmall.AutoSize = True
-        Me.chkPolosmall.Location = New System.Drawing.Point(63, 15)
+        Me.chkPolosmall.Location = New System.Drawing.Point(123, 31)
         Me.chkPolosmall.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.chkPolosmall.Name = "chkPolosmall"
-        Me.chkPolosmall.Size = New System.Drawing.Size(50, 20)
+        Me.chkPolosmall.Size = New System.Drawing.Size(85, 40)
         Me.chkPolosmall.TabIndex = 3
         Me.chkPolosmall.Text = "500"
         Me.chkPolosmall.UseVisualStyleBackColor = True
@@ -472,30 +481,30 @@ Partial Class FormEnroll
         'Label15
         '
         Me.Label15.AutoSize = True
-        Me.Label15.Font = New System.Drawing.Font("Calisto MT", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label15.Location = New System.Drawing.Point(-3, 98)
+        Me.Label15.Font = New System.Drawing.Font("Calisto MT", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label15.Location = New System.Drawing.Point(3, 196)
         Me.Label15.Name = "Label15"
-        Me.Label15.Size = New System.Drawing.Size(60, 20)
+        Me.Label15.Size = New System.Drawing.Size(99, 32)
         Me.Label15.TabIndex = 2
         Me.Label15.Text = "SKIRT"
         '
         'Label14
         '
         Me.Label14.AutoSize = True
-        Me.Label14.Font = New System.Drawing.Font("Calisto MT", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label14.Location = New System.Drawing.Point(-3, 52)
+        Me.Label14.Font = New System.Drawing.Font("Calisto MT", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label14.Location = New System.Drawing.Point(-4, 111)
         Me.Label14.Name = "Label14"
-        Me.Label14.Size = New System.Drawing.Size(66, 20)
+        Me.Label14.Size = New System.Drawing.Size(109, 32)
         Me.Label14.TabIndex = 1
         Me.Label14.Text = "PANTS"
         '
         'Label13
         '
         Me.Label13.AutoSize = True
-        Me.Label13.Font = New System.Drawing.Font("Calisto MT", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label13.Location = New System.Drawing.Point(-3, 16)
+        Me.Label13.Font = New System.Drawing.Font("Calisto MT", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label13.Location = New System.Drawing.Point(-6, 39)
         Me.Label13.Name = "Label13"
-        Me.Label13.Size = New System.Drawing.Size(60, 20)
+        Me.Label13.Size = New System.Drawing.Size(100, 32)
         Me.Label13.TabIndex = 0
         Me.Label13.Text = "POLO "
         '
@@ -503,10 +512,11 @@ Partial Class FormEnroll
         '
         Me.Label12.AutoSize = True
         Me.Label12.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Label12.Font = New System.Drawing.Font("Calisto MT", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label12.Location = New System.Drawing.Point(0, 26)
+        Me.Label12.Font = New System.Drawing.Font("Franklin Gothic Medium", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label12.ForeColor = System.Drawing.Color.DarkRed
+        Me.Label12.Location = New System.Drawing.Point(0, 43)
         Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(430, 20)
+        Me.Label12.Size = New System.Drawing.Size(522, 32)
         Me.Label12.TabIndex = 1
         Me.Label12.Text = "ITEM   SMALL   MEDIUM   LARGE   XL   QUANTITY"
         '
@@ -514,10 +524,11 @@ Partial Class FormEnroll
         '
         Me.Label11.AutoSize = True
         Me.Label11.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Label11.Font = New System.Drawing.Font("Calisto MT", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label11.Font = New System.Drawing.Font("Franklin Gothic Demi Cond", 22.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label11.ForeColor = System.Drawing.Color.DarkRed
         Me.Label11.Location = New System.Drawing.Point(0, 0)
         Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(153, 26)
+        Me.Label11.Size = New System.Drawing.Size(191, 43)
         Me.Label11.TabIndex = 0
         Me.Label11.Text = "UNIFORMS: "
         '
@@ -538,11 +549,12 @@ Partial Class FormEnroll
         '
         Me.chklab.AutoSize = True
         Me.chklab.Dock = System.Windows.Forms.DockStyle.Top
-        Me.chklab.Font = New System.Drawing.Font("Calisto MT", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.chklab.Location = New System.Drawing.Point(0, 30)
+        Me.chklab.Font = New System.Drawing.Font("Calisto MT", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.chklab.ForeColor = System.Drawing.Color.Maroon
+        Me.chklab.Location = New System.Drawing.Point(0, 38)
         Me.chklab.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.chklab.Name = "chklab"
-        Me.chklab.Size = New System.Drawing.Size(468, 30)
+        Me.chklab.Size = New System.Drawing.Size(468, 36)
         Me.chklab.TabIndex = 1
         Me.chklab.Text = "LABORATORY FEE - 2500"
         Me.chklab.UseVisualStyleBackColor = True
@@ -551,11 +563,12 @@ Partial Class FormEnroll
         '
         Me.chkbus.AutoSize = True
         Me.chkbus.Dock = System.Windows.Forms.DockStyle.Top
-        Me.chkbus.Font = New System.Drawing.Font("Calisto MT", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.chkbus.Font = New System.Drawing.Font("Calisto MT", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.chkbus.ForeColor = System.Drawing.Color.DarkRed
         Me.chkbus.Location = New System.Drawing.Point(0, 0)
         Me.chkbus.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.chkbus.Name = "chkbus"
-        Me.chkbus.Size = New System.Drawing.Size(468, 30)
+        Me.chkbus.Size = New System.Drawing.Size(468, 38)
         Me.chkbus.TabIndex = 0
         Me.chkbus.Text = "SCHOOL BUS - 1500"
         Me.chkbus.UseVisualStyleBackColor = True
@@ -650,14 +663,15 @@ Partial Class FormEnroll
         '
         Me.TableLayoutPanel2.SetColumnSpan(Me.Button2, 2)
         Me.Button2.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Button2.Font = New System.Drawing.Font("Calisto MT", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button2.Font = New System.Drawing.Font("Franklin Gothic Heavy", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button2.ForeColor = System.Drawing.Color.DarkRed
         Me.Button2.Location = New System.Drawing.Point(1119, 2587)
         Me.Button2.Margin = New System.Windows.Forms.Padding(4)
         Me.Button2.Name = "Button2"
         Me.TableLayoutPanel2.SetRowSpan(Me.Button2, 2)
         Me.Button2.Size = New System.Drawing.Size(367, 77)
         Me.Button2.TabIndex = 0
-        Me.Button2.Text = "BACK"
+        Me.Button2.Text = "NEXT"
         Me.Button2.UseVisualStyleBackColor = True
         '
         'TableLayoutPanel1
@@ -677,7 +691,7 @@ Partial Class FormEnroll
         Me.TableLayoutPanel1.Controls.Add(Me.Panel3, 1, 3)
         Me.TableLayoutPanel1.Controls.Add(Me.Panel4, 3, 3)
         Me.TableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Top
-        Me.TableLayoutPanel1.Location = New System.Drawing.Point(0, 51)
+        Me.TableLayoutPanel1.Location = New System.Drawing.Point(0, 55)
         Me.TableLayoutPanel1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.TableLayoutPanel1.Name = "TableLayoutPanel1"
         Me.TableLayoutPanel1.RowCount = 5
@@ -704,41 +718,47 @@ Partial Class FormEnroll
         '
         'TextBox2
         '
+        Me.TextBox2.BackColor = System.Drawing.Color.SeaShell
         Me.TextBox2.Dock = System.Windows.Forms.DockStyle.Top
-        Me.TextBox2.Location = New System.Drawing.Point(0, 74)
+        Me.TextBox2.Font = New System.Drawing.Font("Franklin Gothic Medium", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox2.Location = New System.Drawing.Point(0, 114)
         Me.TextBox2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(366, 22)
+        Me.TextBox2.Size = New System.Drawing.Size(366, 38)
         Me.TextBox2.TabIndex = 3
         '
         'Label2
         '
         Me.Label2.AutoSize = True
         Me.Label2.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Label2.Font = New System.Drawing.Font("Calisto MT", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(0, 48)
+        Me.Label2.Font = New System.Drawing.Font("Franklin Gothic Demi", 19.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.ForeColor = System.Drawing.Color.DarkRed
+        Me.Label2.Location = New System.Drawing.Point(0, 76)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(182, 26)
+        Me.Label2.Size = New System.Drawing.Size(226, 38)
         Me.Label2.TabIndex = 2
-        Me.Label2.Text = "GRADE LEVEL"
+        Me.Label2.Text = "GRADE LEVEL:"
         '
         'TextBox1
         '
+        Me.TextBox1.BackColor = System.Drawing.Color.SeaShell
         Me.TextBox1.Dock = System.Windows.Forms.DockStyle.Top
-        Me.TextBox1.Location = New System.Drawing.Point(0, 26)
+        Me.TextBox1.Font = New System.Drawing.Font("Franklin Gothic Medium Cond", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox1.Location = New System.Drawing.Point(0, 38)
         Me.TextBox1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(366, 22)
+        Me.TextBox1.Size = New System.Drawing.Size(366, 38)
         Me.TextBox1.TabIndex = 1
         '
         'Label1
         '
         Me.Label1.AutoSize = True
         Me.Label1.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Label1.Font = New System.Drawing.Font("Calisto MT", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Font = New System.Drawing.Font("Franklin Gothic Demi", 19.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.ForeColor = System.Drawing.Color.DarkRed
         Me.Label1.Location = New System.Drawing.Point(0, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(92, 26)
+        Me.Label1.Size = New System.Drawing.Size(113, 38)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "NAME:"
         '
@@ -757,41 +777,47 @@ Partial Class FormEnroll
         '
         'TextBox4
         '
+        Me.TextBox4.BackColor = System.Drawing.Color.SeaShell
         Me.TextBox4.Dock = System.Windows.Forms.DockStyle.Top
-        Me.TextBox4.Location = New System.Drawing.Point(0, 74)
+        Me.TextBox4.Font = New System.Drawing.Font("Franklin Gothic Medium", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox4.Location = New System.Drawing.Point(0, 114)
         Me.TextBox4.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(370, 22)
+        Me.TextBox4.Size = New System.Drawing.Size(370, 38)
         Me.TextBox4.TabIndex = 3
         '
         'Label4
         '
         Me.Label4.AutoSize = True
         Me.Label4.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Label4.Font = New System.Drawing.Font("Calisto MT", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(0, 48)
+        Me.Label4.Font = New System.Drawing.Font("Franklin Gothic Demi", 19.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.ForeColor = System.Drawing.Color.DarkRed
+        Me.Label4.Location = New System.Drawing.Point(0, 76)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(180, 26)
+        Me.Label4.Size = New System.Drawing.Size(217, 38)
         Me.Label4.TabIndex = 2
         Me.Label4.Text = "OCCUPATION:"
         '
         'TextBox3
         '
+        Me.TextBox3.BackColor = System.Drawing.Color.SeaShell
         Me.TextBox3.Dock = System.Windows.Forms.DockStyle.Top
-        Me.TextBox3.Location = New System.Drawing.Point(0, 26)
+        Me.TextBox3.Font = New System.Drawing.Font("Franklin Gothic Medium", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox3.Location = New System.Drawing.Point(0, 38)
         Me.TextBox3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(370, 22)
+        Me.TextBox3.Size = New System.Drawing.Size(370, 38)
         Me.TextBox3.TabIndex = 1
         '
         'Label3
         '
         Me.Label3.AutoSize = True
         Me.Label3.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Label3.Font = New System.Drawing.Font("Calisto MT", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Font = New System.Drawing.Font("Franklin Gothic Demi", 19.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.ForeColor = System.Drawing.Color.DarkRed
         Me.Label3.Location = New System.Drawing.Point(0, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(196, 26)
+        Me.Label3.Size = New System.Drawing.Size(239, 38)
         Me.Label3.TabIndex = 0
         Me.Label3.Text = "PARENT NAME:"
         '
@@ -812,9 +838,14 @@ Partial Class FormEnroll
         '
         'DateTimePicker1
         '
+        Me.DateTimePicker1.CalendarForeColor = System.Drawing.Color.DarkRed
+        Me.DateTimePicker1.CalendarMonthBackground = System.Drawing.Color.SeaShell
+        Me.DateTimePicker1.CalendarTitleBackColor = System.Drawing.Color.SeaShell
+        Me.DateTimePicker1.CalendarTitleForeColor = System.Drawing.Color.DarkRed
+        Me.DateTimePicker1.CalendarTrailingForeColor = System.Drawing.Color.DarkRed
         Me.DateTimePicker1.Dock = System.Windows.Forms.DockStyle.Top
         Me.DateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Custom
-        Me.DateTimePicker1.Location = New System.Drawing.Point(0, 122)
+        Me.DateTimePicker1.Location = New System.Drawing.Point(0, 190)
         Me.DateTimePicker1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.DateTimePicker1.Name = "DateTimePicker1"
         Me.DateTimePicker1.Size = New System.Drawing.Size(366, 22)
@@ -824,50 +855,57 @@ Partial Class FormEnroll
         '
         Me.Label7.AutoSize = True
         Me.Label7.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Label7.Font = New System.Drawing.Font("Calisto MT", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.Location = New System.Drawing.Point(0, 96)
+        Me.Label7.Font = New System.Drawing.Font("Franklin Gothic Demi", 19.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label7.ForeColor = System.Drawing.Color.DarkRed
+        Me.Label7.Location = New System.Drawing.Point(0, 152)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(79, 26)
+        Me.Label7.Size = New System.Drawing.Size(101, 38)
         Me.Label7.TabIndex = 4
-        Me.Label7.Text = "Label7"
+        Me.Label7.Text = "DATE:"
         '
         'TextBox6
         '
+        Me.TextBox6.BackColor = System.Drawing.Color.SeaShell
         Me.TextBox6.Dock = System.Windows.Forms.DockStyle.Top
-        Me.TextBox6.Location = New System.Drawing.Point(0, 74)
+        Me.TextBox6.Font = New System.Drawing.Font("Franklin Gothic Medium", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox6.Location = New System.Drawing.Point(0, 114)
         Me.TextBox6.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.TextBox6.Name = "TextBox6"
-        Me.TextBox6.Size = New System.Drawing.Size(366, 22)
+        Me.TextBox6.Size = New System.Drawing.Size(366, 38)
         Me.TextBox6.TabIndex = 3
         '
         'Label6
         '
         Me.Label6.AutoSize = True
         Me.Label6.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Label6.Font = New System.Drawing.Font("Calisto MT", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.Location = New System.Drawing.Point(0, 48)
+        Me.Label6.Font = New System.Drawing.Font("Franklin Gothic Demi", 19.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.ForeColor = System.Drawing.Color.DarkRed
+        Me.Label6.Location = New System.Drawing.Point(0, 76)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(122, 26)
+        Me.Label6.Size = New System.Drawing.Size(148, 38)
         Me.Label6.TabIndex = 2
         Me.Label6.Text = "GENDER:"
         '
         'TextBox5
         '
+        Me.TextBox5.BackColor = System.Drawing.Color.SeaShell
         Me.TextBox5.Dock = System.Windows.Forms.DockStyle.Top
-        Me.TextBox5.Location = New System.Drawing.Point(0, 26)
+        Me.TextBox5.Font = New System.Drawing.Font("Franklin Gothic Medium", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox5.Location = New System.Drawing.Point(0, 38)
         Me.TextBox5.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.TextBox5.Name = "TextBox5"
-        Me.TextBox5.Size = New System.Drawing.Size(366, 22)
+        Me.TextBox5.Size = New System.Drawing.Size(366, 38)
         Me.TextBox5.TabIndex = 1
         '
         'Label5
         '
         Me.Label5.AutoSize = True
         Me.Label5.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Label5.Font = New System.Drawing.Font("Calisto MT", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.Font = New System.Drawing.Font("Franklin Gothic Demi", 19.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.ForeColor = System.Drawing.Color.Maroon
         Me.Label5.Location = New System.Drawing.Point(0, 0)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(70, 26)
+        Me.Label5.Size = New System.Drawing.Size(85, 38)
         Me.Label5.TabIndex = 0
         Me.Label5.Text = "AGE:"
         '
@@ -886,43 +924,50 @@ Partial Class FormEnroll
         '
         'ComboBox1
         '
+        Me.ComboBox1.BackColor = System.Drawing.Color.SeaShell
         Me.ComboBox1.Dock = System.Windows.Forms.DockStyle.Top
+        Me.ComboBox1.Font = New System.Drawing.Font("Franklin Gothic Heavy", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox1.ForeColor = System.Drawing.Color.DarkRed
         Me.ComboBox1.FormattingEnabled = True
         Me.ComboBox1.Items.AddRange(New Object() {"MARRIED", "SEPARATED", "WIDOWED", "SINGLE"})
-        Me.ComboBox1.Location = New System.Drawing.Point(0, 74)
+        Me.ComboBox1.Location = New System.Drawing.Point(0, 114)
         Me.ComboBox1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(370, 24)
+        Me.ComboBox1.Size = New System.Drawing.Size(370, 33)
         Me.ComboBox1.TabIndex = 3
         '
         'Label9
         '
         Me.Label9.AutoSize = True
         Me.Label9.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Label9.Font = New System.Drawing.Font("Calisto MT", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label9.Location = New System.Drawing.Point(0, 48)
+        Me.Label9.Font = New System.Drawing.Font("Franklin Gothic Demi", 19.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label9.ForeColor = System.Drawing.Color.DarkRed
+        Me.Label9.Location = New System.Drawing.Point(0, 76)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(110, 26)
+        Me.Label9.Size = New System.Drawing.Size(136, 38)
         Me.Label9.TabIndex = 2
         Me.Label9.Text = "STATUS:"
         '
         'TextBox7
         '
+        Me.TextBox7.BackColor = System.Drawing.Color.SeaShell
         Me.TextBox7.Dock = System.Windows.Forms.DockStyle.Top
-        Me.TextBox7.Location = New System.Drawing.Point(0, 26)
+        Me.TextBox7.Font = New System.Drawing.Font("Franklin Gothic Demi", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox7.Location = New System.Drawing.Point(0, 38)
         Me.TextBox7.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.TextBox7.Name = "TextBox7"
-        Me.TextBox7.Size = New System.Drawing.Size(370, 22)
+        Me.TextBox7.Size = New System.Drawing.Size(370, 38)
         Me.TextBox7.TabIndex = 1
         '
         'Label8
         '
         Me.Label8.AutoSize = True
         Me.Label8.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Label8.Font = New System.Drawing.Font("Calisto MT", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label8.Font = New System.Drawing.Font("Franklin Gothic Demi", 19.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label8.ForeColor = System.Drawing.Color.DarkRed
         Me.Label8.Location = New System.Drawing.Point(0, 0)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(180, 26)
+        Me.Label8.Size = New System.Drawing.Size(211, 38)
         Me.Label8.TabIndex = 0
         Me.Label8.Text = "CONTACT NO:"
         '
@@ -934,19 +979,19 @@ Partial Class FormEnroll
         Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripComboBox1})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
-        Me.MenuStrip1.Size = New System.Drawing.Size(1540, 51)
+        Me.MenuStrip1.Size = New System.Drawing.Size(1540, 55)
         Me.MenuStrip1.TabIndex = 2
         Me.MenuStrip1.Text = "MenuStrip1"
         '
         'ToolStripComboBox1
         '
-        Me.ToolStripComboBox1.BackColor = System.Drawing.Color.Maroon
-        Me.ToolStripComboBox1.Font = New System.Drawing.Font("Calisto MT", 19.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ToolStripComboBox1.ForeColor = System.Drawing.SystemColors.Info
+        Me.ToolStripComboBox1.BackColor = System.Drawing.Color.SeaShell
+        Me.ToolStripComboBox1.Font = New System.Drawing.Font("Franklin Gothic Heavy", 22.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ToolStripComboBox1.ForeColor = System.Drawing.Color.DarkRed
         Me.ToolStripComboBox1.Items.AddRange(New Object() {"Home", "About Us", "Events", "Shop", "Enroll", "Library", "Games"})
         Me.ToolStripComboBox1.Name = "ToolStripComboBox1"
-        Me.ToolStripComboBox1.Size = New System.Drawing.Size(250, 47)
-        Me.ToolStripComboBox1.Text = "        MENU"
+        Me.ToolStripComboBox1.Size = New System.Drawing.Size(250, 51)
+        Me.ToolStripComboBox1.Text = "      MENU"
         '
         'FormEnroll
         '
@@ -1023,7 +1068,6 @@ Partial Class FormEnroll
     Friend WithEvents chkmath As CheckBox
     Friend WithEvents Label10 As Label
     Friend WithEvents ComboBox1 As ComboBox
-    Friend WithEvents chkcomputer As CheckBox
     Friend WithEvents chkesp As CheckBox
     Friend WithEvents chkap As CheckBox
     Friend WithEvents chkfilipino As CheckBox
@@ -1064,4 +1108,5 @@ Partial Class FormEnroll
     Friend WithEvents Button2 As Button
     Friend WithEvents MenuStrip1 As MenuStrip
     Friend WithEvents ToolStripComboBox1 As ToolStripComboBox
+    Friend WithEvents chkcomputer As CheckBox
 End Class

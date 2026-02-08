@@ -61,9 +61,16 @@
                 Dim libraryForm As New FormLibrary()
                 libraryForm.Show()
                 Me.Hide()
+
+            Case "Activities"
+                Dim libraryForm As New FormActivities()
+                FormActivities.Show()
+                Me.Hide()
         End Select
 
     End Sub
 
+    Private Sub ToolStripComboBox1_Click_1(sender As Object, e As EventArgs) Handles ToolStripComboBox1.Click
 
+    End Sub
 End Class
