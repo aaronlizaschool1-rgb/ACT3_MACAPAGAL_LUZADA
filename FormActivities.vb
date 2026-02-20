@@ -14,7 +14,7 @@ Public Class FormActivities
         ElseIf NAME = "" Then
             Label1.Text = "Please enter your name"
 
-        ElseIf NAME = "Berto" Then
+    Sub SkillLevel()
             Label1.Text = "Good morning/Good afternoon Ma'am"
 
         End If
